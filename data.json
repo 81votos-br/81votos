@@ -144,6 +144,30 @@
   "itatiaia_0411": {
    "n": "Itatiaia (CNN Brasil)",
    "u": "https://www.itatiaia.com.br/politica/tereza-cristina-disputa-presidencia-senado-voto-alcolumbre/"
+  },
+  "cest_0711": {
+   "n": "Correio do Estado",
+   "u": "https://correiodoestado.com.br/politica/2026/11/07/azambuja-e-contar-vao-apoiar-marinho-a-presidencia-do-senado.html"
+  },
+  "bg_0411": {
+   "n": "Blog do BG (com informações de O Globo)",
+   "u": "https://www.blogdobg.com.br/disputa-no-senado-rogerio-marinho-calcula-ter-44-votos-e-vencer-alcolumbre-na-eleicao-para-presidente/"
+  },
+  "96fm_0411": {
+   "n": "96FM (Natal)",
+   "u": "https://www.96fm.com.br/post/styvenson-valentim-anuncia-voto-em-rogerio-marinho-para-presidente-do-senado"
+  },
+  "ojacare_0711": {
+   "n": "O Jacaré",
+   "u": "https://www.ojacare.com.br/2026/11/07/presidencia-do-senado-reinaldo-declara-apoio-a-marinho-e-tereza-ganha-respaldo-de-lider-do-pl"
+  },
+  "tconline_0611": {
+   "n": "TC Online (Tribuna do Cricaré)",
+   "u": "https://tconline.com.br/entrevista-renato-casagrande-o-senado-nao-pode-ser-palco-para-radicalismos-ou-disputas-ideologicas-vazias/"
+  },
+  "d360_0711": {
+   "n": "Diário 360",
+   "u": "https://diario360.com.br/2026/11/07/marcel-van-hattem-derrite-e-sanderson-declaram-apoio-a-rogerio-marinho-para-comandar-o-senado/"
   }
  },
  "PARTIES": [
@@ -1358,7 +1382,7 @@
  },
  "META": {
   "schema": 1,
-  "lastScan": "2026-11-07T08:56:19-03:00",
+  "lastScan": "2026-11-07T17:10:40-03:00",
   "lastChange": "2026-11-07T08:53:46-03:00",
   "claims": [
    {
@@ -1380,6 +1404,13 @@
     "s": "pbagora_0511",
     "d": "05/11/2026",
     "txt": "33 votos na reunião da bancada com aliados"
+   },
+   {
+    "quem": "Marinho, segundo coluna de O Globo (via Blog do BG),",
+    "n": 44,
+    "s": "bg_0411",
+    "d": "04/11/2026",
+    "txt": "44"
    }
   ],
   "changelog": [
@@ -1414,6 +1445,36 @@
   ],
   "pending": [
    {
+    "ts": "2026-11-07T17:10:40-03:00",
+    "nome": "Marcel van Hattem, Guilherme Derrite e Sanderson",
+    "txt": "Diário 360 (07/11, assinado Redação) diz no título que os três declararam apoio a Marinho. O texto não traz aspas de nenhum deles; sobre Van Hattem, paráfrase sem data ou meio; sobre Derrite e Sanderson, só a afirmação do veículo. Posições mantidas até achar declaração dos próprios senadores.",
+    "s": "d360_0711"
+   },
+   {
+    "ts": "2026-11-07T16:11:32-03:00",
+    "nome": "Renato Casagrande",
+    "txt": "Em entrevista ao TC Online (06/11), cita os três pré-candidatos e diz que o PSB conversa com todos e que \"estamos no começo\"; a afirmação de que é cedo para definir o voto é paráfrase do repórter. Não declarou apoio. Posição mantida (sem manifestação) até declaração explícita de indefinição ou apoio.",
+    "s": "tconline_0611"
+   },
+   {
+    "ts": "2026-11-07T14:20:00-03:00",
+    "nome": "Carlos Portinho",
+    "txt": "O Jacaré (07/11) relata que Portinho, líder do PL, defendeu Tereza Cristina em reunião com senadores eleitos do PP e cita fala à CNN de que ela \"sempre esteve conosco\"; o próprio texto diz que ele não anunciou apoio formal. Posição mantida.",
+    "s": "ojacare_0711"
+   },
+   {
+    "ts": "2026-11-07T14:20:00-03:00",
+    "nome": "Styvenson Valentim",
+    "txt": "96FM (04/11) diz no título que ele anunciou voto em Marinho, mas o texto relata, sem reproduzir a fala, que ele sinalizou isso em resposta a um seguidor nas redes sociais. Posição mantida até achar a publicação ou declaração do próprio senador.",
+    "s": "96fm_0411"
+   },
+   {
+    "ts": "2026-11-07T10:20:00-03:00",
+    "nome": "Capitão Contar",
+    "txt": "Correio do Estado (07/11) afirma no título e no lide que Contar declarou apoio a Marinho, mas a fala dele entre aspas não nomeia o candidato; o texto diz, sem aspas, que ele seguirá a indicação do PL. Ele também defendeu, entre aspas, que o eleitor saiba como votou o senador. Posição mantida até haver declaração direta.",
+    "s": "cest_0711"
+   },
+   {
     "ts": "2026-11-07T08:53:46-03:00",
     "nome": "Lucas Barreto e Rayssa Furlan",
     "txt": "Diário 360 (06/11) afirma que os dois senadores do Amapá anunciaram que não apoiarão a reeleição de Alcolumbre, mas não traz declaração, data ou meio. Posições não alteradas até achar a fala dos próprios senadores. PlatôBR (04/11) e Jornal da Cidade Online repetem, citando apenas relatos de pares, que os dois tendem a apoiar Tereza Cristina ou Marinho; ainda sem fala dos próprios senadores.",
@@ -1427,8 +1488,8 @@
    }
   ],
   "motor": {
-   "lastRun": "2026-11-07T08:56:19-03:00",
-   "githubStatus": "erro: remote: access denied by the git proxy: 81votos-br/81votos is not in this session's authorized repository set, so the proxy will not inject a credential for it. To fix, add the repository to the session's sources. (HTTP 403; ferramenta add_repo indisponível nesta sessão)",
+   "lastRun": "2026-11-07T17:10:56-03:00",
+   "githubStatus": "erro: add_repo indisponível nesta sessão (ferramenta não encontrada); git push retornou HTTP 403: remote: access denied by the git proxy: 81votos-br/81votos is not in this session's authorized repository set, so the proxy will not inject a credential for it.",
    "githubLastPush": null
   }
  }
