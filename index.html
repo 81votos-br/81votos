@@ -143,6 +143,17 @@ h1 em{font-style:normal;color:var(--accent)}
 .cd .bar{grid-column:1/-1;height:6px;background:#1a212c;border-radius:9px;position:relative;overflow:visible}
 .cd .bar i{display:block;height:100%;border-radius:9px}
 .cd .bar .m{position:absolute;top:-4px;bottom:-4px;width:2px;background:var(--accent);left:calc(41/81*100%)}
+.bvd{margin:22px 0 6px;border:1px solid var(--line);border-radius:18px;background:var(--panel);padding:18px 20px}
+.bvd .t{font-family:var(--mono);font-size:11.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:12px}
+.bvd .g{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:0;font-variant-numeric:tabular-nums}
+.bvd .g>div{padding:10px 8px;border-top:1px solid var(--line);display:flex;align-items:center;gap:8px}
+.bvd .g>.h{border-top:0;font-size:12.5px;color:var(--muted);padding-top:0}
+.bvd .g b{font-size:26px;font-weight:900;letter-spacing:-.03em}
+.bvd .g .na{color:var(--dim);font-size:13px}
+.bvd .sw{width:10px;height:10px;border-radius:50%;flex:none}
+.bvd .f{margin-top:12px;font-size:14px;color:var(--muted);line-height:1.5}
+.bvd .f em{font-style:normal;color:var(--accent);font-weight:700}
+@media(max-width:700px){.bvd .g b{font-size:20px}}
 .claim{margin-top:12px;font-size:13px;color:var(--muted);line-height:1.5;border-left:2px solid var(--c-alc);padding-left:10px}
 .parties{margin-top:16px}
 .pty{display:grid;grid-template-columns:96px 1fr;gap:12px;padding:11px 0;border-top:1px solid var(--line);font-size:13.5px}
@@ -333,6 +344,8 @@ footer{border-top:1px solid var(--line);padding:24px 0 44px;color:var(--muted);f
     </div>
   </div>
 
+  <div class="bvd" id="bvd"></div>
+
   <div class="score">
     <div class="score-top">
       <h2>O plenário, senador por senador</h2>
@@ -455,7 +468,7 @@ footer{border-top:1px solid var(--line);padding:24px 0 44px;color:var(--muted);f
 
 </main>
 
-<footer><div class="wrap"><div style="margin-bottom:10px">Viu uma declaração que falta ou um erro? <a id="ft-mail" href="#">Envie a correção com o link da fonte</a> · <span id="ft-mail-txt" class="mono"></span> · <a href="metodologia.html">Metodologia</a> · <a href="correcoes.html">Correções</a> · <a href="privacidade.html">Privacidade</a></div>Painel independente, sem vínculo com o Senado, partidos ou candidaturas, e sem patrocínio de quem tem lado na disputa. Composição: <a href="https://hubpolitico.com.br/inteligencia/relatorios/eleicao-2026/senado-2027" target="_blank" rel="noopener">Hub Político</a>, <a href="https://www.congressoemfoco.com.br/noticia/123017/senado-quem-sao-todos-os-senadores-e-seus-partidos" target="_blank" rel="noopener">Congresso em Foco</a>, <a href="https://www12.senado.leg.br/noticias/materias/2026/10/25/fim-da-eleicao-define-composicao-do-senado-em-2027-com-13-partidos" target="_blank" rel="noopener">Agência Senado</a>.</div></footer>
+<footer><div class="wrap"><div style="margin-bottom:10px">Viu uma declaração que falta ou um erro? <a id="ft-mail" href="#">Envie a correção com o link da fonte</a> · <span id="ft-mail-txt" class="mono"></span> · <a href="metodologia.html">Metodologia</a> · <a href="eleitorado.html">Quem vota</a> · <a href="imprensa.html">Imprensa</a> · <a href="correcoes.html">Correções</a> · <a href="privacidade.html">Privacidade</a></div>Painel independente, sem vínculo com o Senado, partidos ou candidaturas, e sem patrocínio de quem tem lado na disputa. Composição: <a href="https://hubpolitico.com.br/inteligencia/relatorios/eleicao-2026/senado-2027" target="_blank" rel="noopener">Hub Político</a>, <a href="https://www.congressoemfoco.com.br/noticia/123017/senado-quem-sao-todos-os-senadores-e-seus-partidos" target="_blank" rel="noopener">Congresso em Foco</a>, <a href="https://www12.senado.leg.br/noticias/materias/2026/10/25/fim-da-eleicao-define-composicao-do-senado-em-2027-com-13-partidos" target="_blank" rel="noopener">Agência Senado</a>.</div></footer>
 
 <div class="scrim" id="scrim"></div>
 <aside class="drawer" id="drawer" aria-hidden="true"><button class="x" id="x" aria-label="Fechar">×</button><div id="dbody"></div></aside>
@@ -486,19 +499,21 @@ const PTMAP={'União + PP':['União','PP']};
 function partyOf(s){const p=PARTIES.find(p=>(PTMAP[p.nm]||[p.nm]).includes(s.pt));return p||null;}
 const prow=s=>{const p=partyOf(s);return !p?2:(p.pos==='alc'?0:1);};
 const LENSES={
+  pty:null,
   sig:{btn:'Pedido de impeachment de Moraes',title:'Assinou pedido de impeachment de Moraes × posição declarada',
     rows:[[1,'Assinou o pedido'],[0,'Sem registro de assinatura']],row:s=>+s.sig,div:()=>false,
     src:()=>`Assinaturas: lista do sistema do Senado publicada pelo <a href="https://www.correiobraziliense.com.br/politica/2026/09/7494807-confira-deputados-e-senadores-que-assinam-o-pedido-de-impeachment-de-moraes.html" target="_blank" rel="noopener">Correio Braziliense</a> (05/09/2026) e assinaturas de candidatos no site <a href="https://meusenadorassina.com.br/" target="_blank" rel="noopener">Meu Senador Assina?</a> (03/10/2026). "Sem registro" significa ausente dessas duas listas, não que o senador seja contra. Assinar um pedido não diz em quem o senador vota.`,
     story:()=>{const sg=SEN.filter(s=>s.sig),dec=sg.filter(s=>s.pos!=='non');const by=k=>dec.filter(s=>colOf(s)===k).length;
       return `<p class="headline"><em>${sg.length}</em> senadores de 2027 têm assinatura registrada no pedido. <em>${dec.length}</em> deles já declararam posição sobre a Mesa.</p><p class="sub" style="margin:0">Entre os que assinaram e declararam: ${by('alc')} apoiam Alcolumbre, ${by('opp')} apoiam outro nome ou são contra ele, ${by('ind')} estão indefinidos.</p>`;}},
-  pty:{btn:'Orientação do próprio partido',title:'Orientação do partido × posição declarada',
+  _pty:{btn:'Orientação do próprio partido',title:'Orientação do partido × posição declarada',
     rows:[[0,'Partido orientou Alcolumbre'],[1,'Partido orientou outro nome'],[2,'Partido sem orientação registrada']],row:prow,
     div:(r,k)=>(r===0&&k==='opp')||(r===1&&k==='alc'),
     src:()=>`Orientações: notas e anúncios dos partidos, com fonte no painel "Partidos" do placar. A orientação do partido não obriga o voto, que é secreto. Células destacadas: senadores que declararam posição diferente da orientação do próprio partido, em qualquer direção.`,
     story:()=>{const dv=SEN.filter(s=>LENSES.pty.div(prow(s),colOf(s)));const fol=SEN.filter(s=>{const r=prow(s),k=colOf(s);return (r===0&&k==='alc')||(r===1&&k==='opp');});
       return `<p class="headline"><em>${fol.length}</em> senadores declararam posição igual à orientação do partido. <em>${dv.length}</em> declararam posição diferente.</p><p class="sub" style="margin:0">${dv.length?'Divergem: '+dv.map(s=>esc(s.nome)+' ('+esc(s.pt)+')').join(', ')+'.':'Nenhuma divergência registrada até agora.'}</p>`;}}
 };
-let lens='sig', mxSel={sig:'1|non',pty:'0|non'};
+LENSES.pty=LENSES._pty;delete LENSES._pty;
+let lens='pty', mxSel={sig:'1|non',pty:'0|non'};
 function drawDxf(){
   const L=LENSES[lens];
   $('#lens').innerHTML=Object.entries(LENSES).map(([k,l])=>`<button class="${k===lens?'on':''}" data-l="${k}">${l.btn}</button>`).join('');
@@ -564,6 +579,15 @@ function drawMap(){
   document.querySelectorAll('.ufrow').forEach(e=>e.onclick=()=>openSen(+e.dataset.id));
 }
 
+function drawBvd(){
+  const c=counts(), cl=META.claims||[];
+  const rows=[['alc','Davi Alcolumbre','Alcolumbre'],['mar','Rogério Marinho','Marinho'],['ter','Tereza Cristina','Tereza']];
+  let sum=0, any=false;
+  const cell=r=>{const k=cl.find(x=>x.quem===r[2]||x.quem.startsWith(r[1]));if(k){sum+=k.n;any=true;return `<div><b>${esc(k.txt||k.n)}</b> <span class="na">${src(k.s)}</span></div>`;}return `<div class="na">não divulgou número</div>`;};
+  const body=rows.map(r=>`<div><span class="sw" style="background:${POS[r[0]].color}"></span><b style="font-size:16px;letter-spacing:0">${r[1]}</b></div>${cell(r)}<div><b style="color:${POS[r[0]].color}">${c[r[0]]}</b></div>`).join('');
+  $('#bvd').innerHTML=`<div class="t">Bastidor × declaração com fonte</div><div class="g"><div class="h">Candidato</div><div class="h">Diz ter (sem nomes)</div><div class="h">Declarados em público, com fonte</div>${body}</div>
+  <div class="f">${any&&sum>81?`Somados, os números que as campanhas dizem ter chegam a <em>${sum}</em>, num Senado de 81. `:''}Aqui só conta o que o próprio senador disse em público: <em>${81-c.non}</em> de 81 até agora. Os outros <em>${c.non}</em> não se manifestaram.</div>`;
+}
 function drawCands(){
   const c=counts();
   const rows=[['alc','Davi Alcolumbre','União · AP · busca a reeleição'],['mar','Rogério Marinho','PL · RN · candidato oficial do PL'],['ter','Tereza Cristina','PP · MS · mantém candidatura'],['con','Contra Alcolumbre','sem candidato fechado ainda']];
@@ -687,7 +711,7 @@ function apply(d){
   SEN=d.SEN.map((s,i)=>({...s,id:i,ev:s.ev||[]})); deriveFez();
 }
 function render(){
-  drawBlocks(); drawStrip(); drawMap(); drawCands(); drawDxf(); drawOpen(); drawCards(); drawFeed(); drawMeta();
+  drawBlocks(); drawBvd(); drawStrip(); drawMap(); drawCands(); drawDxf(); drawOpen(); drawCards(); drawFeed(); drawMeta();
 }
 let filtersReady=false;
 async function boot(){

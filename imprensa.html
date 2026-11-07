@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;900&display=swap" rel="stylesheet">
+<style>body{margin:0;background:#07090d;color:#f3f5f8;font-family:Archivo,system-ui,sans-serif;line-height:1.6}main{max-width:760px;margin:0 auto;padding:40px 22px 60px}h1{font-weight:900;letter-spacing:-.03em;text-transform:uppercase;font-size:34px;line-height:1}h2{font-size:18px;margin-top:28px}p,li{color:#a9b2c0}a{color:#d6ff3d}code,pre{font-family:ui-monospace,monospace;font-size:12.5px;color:#f3f5f8}pre{background:#10151d;border:1px solid #1c2430;border-radius:10px;padding:12px;white-space:pre-wrap;word-break:break-all}.btn{display:inline-block;background:#d6ff3d;color:#07090d;font-weight:700;text-decoration:none;padding:8px 14px;border-radius:999px;margin:4px 6px 4px 0}</style>
+<title>Imprensa · 81 Votos</title><meta name="description" content="Kit de imprensa do 81 Votos: o que é, metodologia, dados abertos e código para embutir o placar."></head>
+<body><main>
+<p><a href="./">← Voltar ao placar</a></p>
+<h1>Imprensa</h1>
+
+<h2>O que é</h2>
+<p>O 81 Votos é um placar independente da eleição para a presidência do Senado (1º de fevereiro de 2027). Ele mostra, senador por senador, o que cada um dos 81 disse em público sobre o voto, com data, veículo e link.</p>
+
+<h2>Metodologia em 5 linhas</h2>
+<ul>
+<li>Só conta a fala do próprio senador: entrevista, vídeo, nota, discurso ou post.</li>
+<li>Nota de partido, bastidor e contagem atribuída a terceiros ficam fora do placar.</li>
+<li>Cada registro recebe um selo SHA-256, que qualquer pessoa confere no navegador.</li>
+<li>Nada é apagado. Mudanças de posição ficam na linha do tempo.</li>
+<li>Busca automática de hora em hora e correções públicas. <a href="metodologia.html">Metodologia completa</a>.</li>
+</ul>
+
+<h2>Quem financia</h2>
+<p>Ninguém. Não há anúncio, patrocínio nem impulsionamento pago, e o projeto não tem vínculo com partido, candidatura, mandato ou gabinete.</p>
+
+<h2>Embutir no seu site (grátis)</h2>
+<p>Placar resumido, que se atualiza sozinho:</p>
+<pre>&lt;iframe src="https://81votos.com.br/embed.html" width="100%" height="260" style="border:0" title="81 Votos: placar da presidência do Senado"&gt;&lt;/iframe&gt;</pre>
+<p>Ficha de um senador (troque o nome no final, sem acentos e com hífens):</p>
+<pre>&lt;iframe src="https://81votos.com.br/embed.html?senador=tereza-cristina" width="100%" height="260" style="border:0" title="81 Votos"&gt;&lt;/iframe&gt;</pre>
+<p><a class="btn" href="embed.html" target="_blank">Ver o placar embutido</a><a class="btn" href="embed.html?senador=davi-alcolumbre" target="_blank">Ver uma ficha embutida</a></p>
+
+<h2>Dados abertos</h2>
+<p>Todos os dados estão em <a href="data.json">data.json</a>, sem cadastro, e podem ser usados e citados. Pedimos o crédito "81 Votos" com link.</p>
+
+<h2>Imagem para compartilhar</h2>
+<p><a href="og.png" download>Baixar a imagem do 81 Votos (1200×630)</a>. Cada ficha de senador tem um card próprio, acessível pelo botão "Copiar link" no placar.</p>
+
+<h2>Contato</h2>
+<p><a href="mailto:contato@81votos.com.br?subject=Imprensa">contato@81votos.com.br</a>. Pedidos de correção e direito de resposta seguem as regras da página de <a href="correcoes.html">correções</a>.</p>
+</main></body></html>

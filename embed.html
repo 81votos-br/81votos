@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>81 Votos · placar</title><meta name="robots" content="noindex">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+:root{--alc:#ffb020;--mar:#3d8bff;--ter:#19d3b4;--con:#b07cff;--ind:#9aa4b2;--non:#2a3444}
+*{box-sizing:border-box}body{margin:0;background:#07090d;color:#f3f5f8;font-family:Archivo,system-ui,sans-serif}
+.w{padding:16px 18px;border:1px solid #1c2430;border-radius:16px;min-height:220px;display:flex;flex-direction:column;gap:12px}
+.top{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.k{font-family:ui-monospace,monospace;font-size:11px;color:#8a94a3;text-transform:uppercase;letter-spacing:.06em}
+h1{margin:0;font-size:22px;font-weight:900;letter-spacing:-.02em;line-height:1.1}h1 em{font-style:normal;color:#d6ff3d}
+.bar{display:flex;height:18px;border-radius:6px;overflow:hidden;position:relative;background:var(--non)}
+.bar i{display:block;height:100%}.bar .m{position:absolute;left:50.6%;top:-4px;bottom:-4px;border-left:2px dashed #f3f5f8}
+.lg{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:13px;color:#c5ccd6}.lg span{display:flex;align-items:center;gap:6px}.lg b{color:#f3f5f8}
+.sw{width:9px;height:9px;border-radius:50%}
+.ft{margin-top:auto;display:flex;justify-content:space-between;font-size:12px;color:#8a94a3}.ft a{color:#d6ff3d;text-decoration:none;font-weight:700}
+.pv{font-size:24px;font-weight:900}.tx{font-size:14px;color:#c5ccd6;line-height:1.45}
+</style></head><body><div class="w" id="w"><div class="k">Carregando…</div></div>
+<script>
+const POS={alc:['Alcolumbre','var(--alc)'],mar:['Marinho','var(--mar)'],ter:['Tereza Cristina','var(--ter)'],con:['Contra Alcolumbre, sem candidato','var(--con)'],ind:['Indefinido','var(--ind)'],non:['Não se manifestou','var(--non)']};
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const slug=n=>n.toLowerCase().normalize('NFD').replace(/\p{M}/gu,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+const fmt=ts=>{try{return new Date(ts).toLocaleString('pt-BR',{timeZone:'America/Sao_Paulo',day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'});}catch(e){return ''}};
+const q=new URLSearchParams(location.search).get('senador');
+fetch('data.json?t='+Date.now(),{cache:'no-store'}).then(r=>r.json()).then(d=>{
+  const S=d.SEN, up=fmt((d.META||{}).lastScan||d.UPDATED), base='https://81votos.com.br/';
+  const ft=(h)=>`<div class="ft"><span>Atualizado ${up}</span><a href="${h}" target="_blank" rel="noopener">81votos.com.br →</a></div>`;
+  if(q){const s=S.find(x=>slug(x.nome)===q.replace(/^senador-/,''));if(!s){document.getElementById('w').innerHTML='<div class="k">Senador não encontrado</div>'+ft(base);return;}
+    const e=(s.ev||[])[0];
+    document.getElementById('w').innerHTML=`<div class="top"><span class="k">Presidência do Senado · 81 Votos</span></div><h1>${esc(s.nome)} <span style="color:#8a94a3;font-size:15px;font-weight:600">${esc(s.pt)}-${s.uf}</span></h1><div class="pv" style="color:${s.pos==='non'?'#8a94a3':POS[s.pos][1]}">${s.cand?(s.candLabel||'Candidato(a)'):POS[s.pos][0]}</div>${e?`<div class="tx">${esc(e.d)} · ${esc(e.t)}</div>`:'<div class="tx">Nenhuma declaração pública registrada até agora.</div>'}${ft(base+'#senador-'+slug(s.nome))}`;return;}
+  const c={};for(const k in POS)c[k]=0;S.forEach(s=>c[s.pos]++);
+  const ord=['alc','mar','ter','con','ind','non'];
+  document.getElementById('w').innerHTML=`<div class="top"><span class="k">Presidência do Senado · 1º/02/2027</span><span class="k">41 para vencer</span></div>
+  <h1><em>${81-c.non}</em> de 81 senadores já disseram em público em quem votam</h1>
+  <div class="bar">${ord.filter(k=>k!=='non').map(k=>`<i style="width:${c[k]/81*100}%;background:${POS[k][1]}"></i>`).join('')}<span class="m"></span></div>
+  <div class="lg">${ord.map(k=>`<span><span class="sw" style="background:${POS[k][1]}"></span>${POS[k][0]} <b>${c[k]}</b></span>`).join('')}</div>${ft(base)}`;
+}).catch(()=>{document.getElementById('w').innerHTML='<div class="k">Não foi possível carregar o placar agora.</div>';});
+</script></body></html>
