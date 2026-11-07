@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://81votos.com.br/sitemap.xml

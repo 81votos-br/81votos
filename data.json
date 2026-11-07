@@ -1,0 +1,1379 @@
+{
+ "UPDATED": "2026-11-06",
+ "S": {
+  "forum": {
+   "n": "Revista Fórum (via CNN)",
+   "u": "https://revistaforum.com.br/politica/alcolumbre-48-votos-senado/"
+  },
+  "gazMar": {
+   "n": "Gazeta do Povo",
+   "u": "https://www.gazetadopovo.com.br/republica/rogerio-marinho-defende-voto-aberto-na-disputa-contra-alcolumbre-pela-presidencia-do-senado/"
+  },
+  "metTer": {
+   "n": "Metrópoles",
+   "u": "https://www.metropoles.com/brasil/apos-pp-apoiar-alcolumbre-tereza-ressalta-direito-de-escolha-dos-senadores"
+  },
+  "times": {
+   "n": "Times Brasil",
+   "u": "https://timesbrasil.com.br/brasil/senado-derrite-e-tereza-cristina-contrariam-pp-e-se-posicionam-contra-reeleicao-de-alcolumbre/"
+  },
+  "b247D": {
+   "n": "Brasil 247",
+   "u": "https://www.brasil247.com/brasilia/pode-ser-qualquer-um-menos-alcolumbre-diz-damares/"
+  },
+  "folhabv": {
+   "n": "Folha BV",
+   "u": "https://www.folhabv.com.br/politica/presidencia-do-senado-hiran-e-teresa-ainda-nao-definiram-quem-vao-apoiar-e-nicoletti-defende-rogerio-marinho/"
+  },
+  "b247U": {
+   "n": "Brasil 247",
+   "u": "https://www.brasil247.com/brasil/uniao-brasil-e-pp-anunciam-apoio-a-reeleicao-de-alcolumbre-para-presidencia-do-senado/"
+  },
+  "cnn": {
+   "n": "CNN Brasil",
+   "u": "https://www.cnnbrasil.com.br/politica/uniao-pp-anuncia-apoio-a-reeleicao-de-alcolumbre-na-presidencia-do-senado/"
+  },
+  "dantas": {
+   "n": "Claudio Dantas",
+   "u": "https://claudiodantas.com.br/pp-e-uniao-brasil-retomam-apoio-a-reeleicao-de-alcolumbre-a-presidencia-do-senado/"
+  },
+  "dcar": {
+   "n": "Diário Carioca",
+   "u": "https://www.diariocarioca.com/2026/11/02/politica/marinho-voto-aberto-direita-senado-2027/"
+  },
+  "otempo": {
+   "n": "O Tempo",
+   "u": "https://www.otempo.com.br/politica/congresso/2026/11/4/pl-lanca-a-candidatura-de-rogerio-marinho-a-presidencia-do-senado"
+  },
+  "carta": {
+   "n": "CartaCapital",
+   "u": "https://www.cartacapital.com.br/politica/pl-oficializa-rogerio-marinho-para-disputar-a-presidencia-do-senado-contra-alcolumbre/"
+  },
+  "jpb": {
+   "n": "Jornal da Paraíba",
+   "u": "https://jornaldaparaiba.com.br/politica/mesa-do-senado-veneziano-e-joao-azevedo-ficam-com-alcolumbre-efraim-declara-apoio-a-marinho"
+  },
+  "esmael": {
+   "n": "Esmael Morais (citando CNN Brasil)",
+   "u": "https://www.esmaelmorais.com.br/marinho-40-votos-tereza-cristina-candidatura/"
+  },
+  "imirante": {
+   "n": "Imirante",
+   "u": "https://imirante.com/noticias/brasil/2026/11/06/ipolitica-tereza-cristina-discute-eleicao-senado-bolsonaro"
+  },
+  "dpPSB": {
+   "n": "Diario de Pernambuco",
+   "u": "https://www.diariodepernambuco.com.br/amp/politica/2026/11/11728459-psb-sinaliza-apoio-a-reeleicao-de-alcolumbre-apos-joao-campos-reunir-senadores-eleitos.html"
+  },
+  "jbr": {
+   "n": "Jornal de Brasília (Folhapress)",
+   "u": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/pl-lanca-rogerio-marinho-para-a-presidencia-do-senado/"
+  },
+  "cb": {
+   "n": "Correio Braziliense, 05/09/2026",
+   "u": "https://www.correiobraziliense.com.br/politica/2026/09/7494807-confira-deputados-e-senadores-que-assinam-o-pedido-de-impeachment-de-moraes.html"
+  },
+  "msa": {
+   "n": "Meu Senador Assina?, 03/10/2026",
+   "u": "https://meusenadorassina.com.br/"
+  },
+  "p360_pontes": {
+   "n": "Poder360",
+   "u": "https://www.poder360.com.br/poder-congresso/marcos-pontes-quer-se-lancar-a-presidencia-do-senado-em-2027/"
+  },
+  "tmc_0511": {
+   "n": "TMC",
+   "u": "https://tmc.com.br/politica/marcos-pontes-defende-candidatura-de-rogerio-marinho-a-presidencia-do-senado-para-o-bem-do-pais/"
+  },
+  "dma_0611": {
+   "n": "DMA Notícias",
+   "u": "https://dmanoticias.com.br/cinco-senadores-podem-decidir-a-disputa-entre-alcolumbre-e-marinho/"
+  },
+  "agorarn_0211": {
+   "n": "Agora RN",
+   "u": "https://agorarn.com.br/politica/carlos-bolsonaro-apoio-rogerio-marinho-presidencia-senado/"
+  },
+  "d360_3010": {
+   "n": "Diário 360",
+   "u": "https://diario360.com.br/2026/10/30/senador-eleito-se-posiciona-contra-alcolumbre-e-defende-rogerio-marinho-na-presidencia-do-senado/"
+  },
+  "em_0611": {
+   "n": "Estado de Minas (com Folha de S.Paulo)",
+   "u": "https://www.em.com.br/politica/2026/11/7534237-marinho-vai-rodar-o-pais-e-apostar-em-pressao-de-bolsonaristas-para-presidir-o-senado.html"
+  },
+  "dcm_0611": {
+   "n": "Diário do Centro do Mundo",
+   "u": "https://www.diariodocentrodomundo.com.br/alcolumbre-negocia-apoio-presidencia-senado-marinho-tereza"
+  },
+  "cfoco_0511": {
+   "n": "Congresso em Foco",
+   "u": "https://www.congressoemfoco.com.br/noticia/131331/alcolumbre-e-marinho-largam-proximos-em-disputa-aberta-pelo-senado"
+  },
+  "pbagora_0511": {
+   "n": "PB Agora",
+   "u": "https://www.pbagora.com.br/noticia/politica/efraim-afirma-que-rogerio-marinho-ja-possui-33-votos-para-disputa-a-presidencia-do-senado/"
+  },
+  "d360_0611": {
+   "n": "Diário 360",
+   "u": "https://diario360.com.br/2026/11/06/alcolumbre-sofre-racha-na-propria-base-do-amapa-e-perde-apoio-de-dois-senadores-a-sua-reeleicao/"
+  },
+  "gazpovo_0411": {
+   "n": "Gazeta do Povo",
+   "u": "https://www.gazetadopovo.com.br/republica/direita-aposta-na-exposicao-de-votos-no-senado-para-derrotar-alianca-entre-alcolumbre-lula-e-moraes/"
+  },
+  "acritica_0611": {
+   "n": "A Crítica (Campo Grande)",
+   "u": "https://acritica.net/politica/reinaldo-azambuja-reforca-apoio-rogerio-marinho-presidencia-senado/"
+  }
+ },
+ "PARTIES": [
+  {
+   "nm": "PL",
+   "pos": "mar",
+   "tag": "Candidato próprio",
+   "tx": "Oficializou Rogério Marinho em 04/11. Maior bancada (29).",
+   "s": "otempo"
+  },
+  {
+   "nm": "Novo",
+   "pos": "mar",
+   "tag": "Apoio a Marinho",
+   "tx": "A bancada de 3 senadores eleitos apoia Marinho, segundo a Folha.",
+   "s": "jbr"
+  },
+  {
+   "nm": "União + PP",
+   "pos": "alc",
+   "tag": "Apoio a Alcolumbre",
+   "tx": "A federação (12 senadores) anunciou apoio à recondução em 27/10. Derrite e Tereza Cristina discordam em público.",
+   "s": "cnn"
+  },
+  {
+   "nm": "PSB",
+   "pos": "alc",
+   "tag": "Vai formalizar",
+   "tx": "Nota assinada pelo líder Cid Gomes, em 04/11, diz que o partido deve formalizar apoio a Alcolumbre nos próximos dias.",
+   "s": "dpPSB"
+  },
+  {
+   "nm": "MDB",
+   "pos": "alc",
+   "tag": "Vai formalizar",
+   "tx": "Veneziano confirmou que o MDB deve formalizar apoio a Alcolumbre; o líder Eduardo Braga já declarou voto.",
+   "s": "jpb"
+  },
+  {
+   "nm": "PT",
+   "pos": "alc",
+   "tag": "Sinalizou apoio",
+   "tx": "A líder do governo, Teresa Leitão, disse que o PT deve apoiar Alcolumbre, mas que a posição ainda não foi fechada oficialmente.",
+   "s": "dcm_0611"
+  }
+ ],
+ "FEED": [
+  {
+   "d": "04/11",
+   "pos": "mar",
+   "t": "Reinaldo Azambuja (PL-MS) declara apoio a Rogério Marinho.",
+   "s": "acritica_0611"
+  },
+  {
+   "d": "04/11",
+   "pos": "mar",
+   "t": "Zé Medeiros (PL-MT) declara apoio a Rogério Marinho.",
+   "s": "gazpovo_0411"
+  },
+  {
+   "d": "06/11",
+   "pos": "mar",
+   "t": "Efraim Filho (PL-PB) nega estar na lista de Alcolumbre e diz que segue com Marinho.",
+   "s": "em_0611"
+  },
+  {
+   "d": "31/10",
+   "pos": "mar",
+   "t": "Carlos Bolsonaro (PL-SC) declara em vídeo apoio a Rogério Marinho.",
+   "s": "agorarn_0211"
+  },
+  {
+   "d": "30/10",
+   "pos": "mar",
+   "t": "André do Prado (PL-SP) declara apoio a Rogério Marinho.",
+   "s": "d360_3010"
+  },
+  {
+   "d": "05/11",
+   "pos": "mar",
+   "t": "Marcos Pontes (PL-SP) declara apoio a Rogério Marinho.",
+   "s": "tmc_0511"
+  },
+  {
+   "d": "05/11",
+   "pos": "ter",
+   "t": "Tereza Cristina diz que não vai enfrentar Marinho e quer conversar com Bolsonaro sobre a disputa.",
+   "s": "imirante"
+  },
+  {
+   "d": "05/11",
+   "pos": "alc",
+   "t": "Veneziano (MDB-PB) confirma apoio a Alcolumbre.",
+   "s": "jpb"
+  },
+  {
+   "d": "04/11",
+   "pos": "alc",
+   "t": "PSB diz que vai formalizar apoio a Alcolumbre nos próximos dias.",
+   "s": "dpPSB"
+  },
+  {
+   "d": "04/11",
+   "pos": "mar",
+   "t": "PL oficializa Rogério Marinho como candidato; Efraim Filho (PL-PB) declara apoio.",
+   "s": "otempo"
+  },
+  {
+   "d": "04/11",
+   "pos": "ter",
+   "t": "Tereza Cristina: \"Eu continuo candidata\".",
+   "s": "esmael"
+  },
+  {
+   "d": "02/11",
+   "pos": "mar",
+   "t": "Rogério Marinho defende que a direita divulgue o voto na eleição da Mesa.",
+   "s": "gazMar"
+  },
+  {
+   "d": "início nov.",
+   "pos": "con",
+   "t": "Damares Alves rejeita a reeleição de Alcolumbre.",
+   "s": "b247D"
+  },
+  {
+   "d": "início nov.",
+   "pos": "mar",
+   "t": "Nicoletti (PL-RR) endossa Marinho; Dr. Hiran e Teresa Surita seguem indefinidos.",
+   "s": "folhabv"
+  },
+  {
+   "d": "27/10",
+   "pos": "con",
+   "t": "Guilherme Derrite (PP-SP) diz que não vota em Alcolumbre, contrariando a federação.",
+   "s": "times"
+  },
+  {
+   "d": "27/10",
+   "pos": "ter",
+   "t": "Tereza Cristina responde à federação: o voto é livre, soberano e secreto.",
+   "s": "metTer"
+  },
+  {
+   "d": "27/10",
+   "pos": "alc",
+   "t": "Federação União Brasil–PP anuncia apoio à recondução de Alcolumbre.",
+   "s": "cnn"
+  },
+  {
+   "d": "out.",
+   "pos": "alc",
+   "t": "Eduardo Braga (MDB-AM) e Otto Alencar (PSD-BA) declaram apoio a Alcolumbre em plenário.",
+   "s": "b247U"
+  },
+  {
+   "d": "out.",
+   "pos": "alc",
+   "t": "Alcolumbre diz a interlocutores ter ao menos 48 votos.",
+   "s": "forum"
+  }
+ ],
+ "SEN": [
+  {
+   "uf": "AC",
+   "nome": "Alan Rick",
+   "pt": "Republicanos",
+   "sit": "Mandato até 2031",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "AC",
+   "nome": "Márcio Bittar",
+   "pt": "PL",
+   "sit": "Reeleito em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "AC",
+   "nome": "Mara Rocha",
+   "pt": "Republicanos",
+   "sit": "Eleita em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "AL",
+   "nome": "Renan Filho",
+   "pt": "MDB",
+   "sit": "Mandato até 2031",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "AL",
+   "nome": "Arthur Lira",
+   "pt": "PP",
+   "sit": "Eleito em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "AL",
+   "nome": "Marina JHC",
+   "pt": "PSDB",
+   "sit": "Eleita em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "AP",
+   "nome": "Davi Alcolumbre",
+   "pt": "União",
+   "sit": "Mandato até 2031",
+   "flag": null,
+   "pos": "alc",
+   "cand": true,
+   "ev": [
+    {
+     "d": "out/2026",
+     "t": "Articula a recondução à presidência e afirmou a interlocutores ter ao menos 48 votos; sinalizou que não pretende pautar pedidos de impeachment de ministros do STF.",
+     "s": "forum",
+     "added": "2026-11-03"
+    }
+   ],
+   "candLabel": "Candidato à reeleição"
+  },
+  {
+   "uf": "AP",
+   "nome": "Rayssa Furlan",
+   "pt": "Podemos",
+   "sit": "Eleita em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "AP",
+   "nome": "Lucas Barreto",
+   "pt": "PSD",
+   "sit": "Reeleito em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "AM",
+   "nome": "Cheila Moreira",
+   "pt": "PT",
+   "sit": "Suplente de Omar Aziz, eleito governador",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "AM",
+   "nome": "Eduardo Braga",
+   "pt": "MDB",
+   "sit": "Reeleito em 2026",
+   "flag": null,
+   "pos": "alc",
+   "cand": false,
+   "ev": [
+    {
+     "d": "out/2026",
+     "t": "Líder do MDB, declarou em plenário apoio à continuidade de Alcolumbre na presidência.",
+     "s": "b247U",
+     "added": "2026-11-03"
+    }
+   ]
+  },
+  {
+   "uf": "AM",
+   "nome": "Plínio Valério",
+   "pt": "PSDB",
+   "sit": "Reeleito em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "BA",
+   "nome": "Otto Alencar",
+   "pt": "PSD",
+   "sit": "Mandato até 2031",
+   "flag": null,
+   "pos": "alc",
+   "cand": false,
+   "ev": [
+    {
+     "d": "out/2026",
+     "t": "Declarou em plenário que está disposto a votar novamente em Alcolumbre.",
+     "s": "b247U",
+     "added": "2026-11-03"
+    }
+   ]
+  },
+  {
+   "uf": "BA",
+   "nome": "Rui Costa",
+   "pt": "PT",
+   "sit": "Eleito em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "BA",
+   "nome": "Jaques Wagner",
+   "pt": "PT",
+   "sit": "Reeleito em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "CE",
+   "nome": "Camilo Santana",
+   "pt": "PT",
+   "sit": "Mandato até 2031",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "CE",
+   "nome": "Cid Gomes",
+   "pt": "PSB",
+   "sit": "Reeleito em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "CE",
+   "nome": "Luizianne Lins",
+   "pt": "Rede",
+   "sit": "Eleita em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "DF",
+   "nome": "Damares Alves",
+   "pt": "Republicanos",
+   "sit": "Mandato até 2031",
+   "flag": null,
+   "pos": "con",
+   "cand": false,
+   "ev": [
+    {
+     "d": "início de nov.",
+     "t": "Rejeitou a reeleição de Alcolumbre: \"Pode ser qualquer um menos Alcolumbre.\"",
+     "s": "b247D",
+     "added": "2026-11-03"
+    }
+   ]
+  },
+  {
+   "uf": "DF",
+   "nome": "Michelle Bolsonaro",
+   "pt": "PL",
+   "sit": "Eleita em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "DF",
+   "nome": "Bia Kicis",
+   "pt": "PL",
+   "sit": "Eleita em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "ES",
+   "nome": "Magno Malta",
+   "pt": "PL",
+   "sit": "Mandato até 2031",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "ES",
+   "nome": "Renato Casagrande",
+   "pt": "PSB",
+   "sit": "Eleito em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "ES",
+   "nome": "Evair de Melo",
+   "pt": "Republicanos",
+   "sit": "Eleito em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "GO",
+   "nome": "Wilder Morais",
+   "pt": "PL",
+   "sit": "Mandato até 2031",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "GO",
+   "nome": "Gustavo Gayer",
+   "pt": "PL",
+   "sit": "Eleito em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "GO",
+   "nome": "Gracinha Caiado",
+   "pt": "União",
+   "sit": "Eleita em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "MA",
+   "nome": "Ana Paula Lobato",
+   "pt": "PSB",
+   "sit": "Mandato até 2031",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "MA",
+   "nome": "André Fufuca",
+   "pt": "PP",
+   "sit": "Eleito em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "MA",
+   "nome": "Lahesio Bonfim",
+   "pt": "Novo",
+   "sit": "Eleito em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "MT",
+   "nome": "Wellington Fagundes",
+   "pt": "PL",
+   "sit": "Mandato até 2031",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "MT",
+   "nome": "Mauro Mendes",
+   "pt": "União",
+   "sit": "Eleito em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "MT",
+   "nome": "Zé Medeiros",
+   "pt": "PL",
+   "sit": "Eleito em 2026",
+   "flag": null,
+   "pos": "mar",
+   "cand": false,
+   "ev": [
+    {
+     "d": "04/11/2026",
+     "t": "À Gazeta do Povo, declarou apoio a Rogério Marinho e defendeu que os senadores revelem o voto.",
+     "s": "gazpovo_0411",
+     "added": "2026-11-06"
+    }
+   ]
+  },
+  {
+   "uf": "MS",
+   "nome": "Tereza Cristina",
+   "pt": "PP",
+   "sit": "Mandato até 2031",
+   "flag": null,
+   "pos": "ter",
+   "cand": true,
+   "ev": [
+    {
+     "d": "05/11/2026",
+     "t": "Disse que pretende conversar com Jair Bolsonaro sobre a disputa e que não vai enfrentar Rogério Marinho; nenhum dos dois definiu quem pode abrir mão.",
+     "s": "imirante",
+     "added": "2026-11-06"
+    },
+    {
+     "d": "04/11/2026",
+     "t": "Após o lançamento de Marinho, disse à CNN que continua candidata e que não fará lançamento formal porque a candidatura \"está posta\".",
+     "s": "esmael",
+     "added": "2026-11-06"
+    },
+    {
+     "d": "27/10/2026",
+     "t": "Após a federação União-PP anunciar apoio a Alcolumbre, divulgou nota dizendo que o voto de cada senador é livre, soberano e secreto. Sinaliza desde o início do ano que quer disputar a presidência.",
+     "s": "metTer",
+     "added": "2026-11-03"
+    }
+   ],
+   "candLabel": "Candidata"
+  },
+  {
+   "uf": "MS",
+   "nome": "Reinaldo Azambuja",
+   "pt": "PL",
+   "sit": "Eleito em 2026",
+   "flag": null,
+   "pos": "mar",
+   "cand": false,
+   "ev": [
+    {
+     "d": "04/11/2026",
+     "t": "Em reunião do PL em Brasília que lançou a candidatura de Rogério Marinho, declarou apoio a ele e disse que vai buscar mais votos para sua vitória.",
+     "s": "acritica_0611",
+     "added": "2026-11-06"
+    }
+   ]
+  },
+  {
+   "uf": "MS",
+   "nome": "Capitão Contar",
+   "pt": "PL",
+   "sit": "Eleito em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "MG",
+   "nome": "Alex Diniz",
+   "pt": "PL",
+   "sit": "Suplente de Cleitinho, eleito governador",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "MG",
+   "nome": "Domingos Sávio",
+   "pt": "PL",
+   "sit": "Eleito em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "MG",
+   "nome": "Marília Campos",
+   "pt": "PT",
+   "sit": "Eleita em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "PA",
+   "nome": "Beto Faro",
+   "pt": "PT",
+   "sit": "Mandato até 2031",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "PA",
+   "nome": "Helder Barbalho",
+   "pt": "MDB",
+   "sit": "Eleito em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "PA",
+   "nome": "Chicão",
+   "pt": "União",
+   "sit": "Eleito em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "PB",
+   "nome": "Efraim Filho",
+   "pt": "PL",
+   "sit": "Mandato até 2031",
+   "flag": null,
+   "pos": "mar",
+   "cand": false,
+   "ev": [
+    {
+     "d": "06/11/2026",
+     "t": "À Folha, negou estar na lista de votos de Alcolumbre e disse que seguirá a bancada do PL e Marinho.",
+     "s": "em_0611",
+     "added": "2026-11-06"
+    },
+    {
+     "d": "04/11/2026",
+     "t": "Anunciou apoio à candidatura de Rogério Marinho e participou da coletiva de lançamento.",
+     "s": "jpb",
+     "added": "2026-11-06"
+    }
+   ]
+  },
+  {
+   "uf": "PB",
+   "nome": "João Azevêdo",
+   "pt": "PSB",
+   "sit": "Eleito em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "PB",
+   "nome": "Veneziano Vital do Rêgo",
+   "pt": "MDB",
+   "sit": "Reeleito em 2026",
+   "flag": null,
+   "pos": "alc",
+   "cand": false,
+   "ev": [
+    {
+     "d": "05/11/2026",
+     "t": "Ao Jornal da Paraíba, confirmou apoio à recondução de Alcolumbre, citando a boa relação com ele e a condução de pautas como o fim da escala 6x1.",
+     "s": "jpb",
+     "added": "2026-11-06"
+    }
+   ]
+  },
+  {
+   "uf": "PR",
+   "nome": "Luis Felipe Cunha",
+   "pt": "União",
+   "sit": "Suplente de Sergio Moro, eleito governador",
+   "flag": "partido a confirmar",
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "PR",
+   "nome": "Filipe Barros",
+   "pt": "PL",
+   "sit": "Eleito em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "PR",
+   "nome": "Deltan Dallagnol",
+   "pt": "Novo",
+   "sit": "Eleito em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "PE",
+   "nome": "Teresa Leitão",
+   "pt": "PT",
+   "sit": "Mandato até 2031",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "PE",
+   "nome": "Humberto Costa",
+   "pt": "PT",
+   "sit": "Reeleito em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "PE",
+   "nome": "Marília Arraes",
+   "pt": "PDT",
+   "sit": "Eleita em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "PI",
+   "nome": "Jussara Lima",
+   "pt": "PSD",
+   "sit": "Mandato até 2031",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "PI",
+   "nome": "Marcelo Castro",
+   "pt": "MDB",
+   "sit": "Reeleito em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "PI",
+   "nome": "Júlio César",
+   "pt": "PSD",
+   "sit": "Eleito em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "RJ",
+   "nome": "Romário",
+   "pt": "Sem partido",
+   "sit": "Mandato até 2031",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "RJ",
+   "nome": "Carlos Portinho",
+   "pt": "PL",
+   "sit": "Reeleito em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "RJ",
+   "nome": "Carlos Jordy",
+   "pt": "PL",
+   "sit": "Eleito em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "RN",
+   "nome": "Rogério Marinho",
+   "pt": "PL",
+   "sit": "Mandato até 2031",
+   "flag": null,
+   "pos": "mar",
+   "cand": true,
+   "ev": [
+    {
+     "d": "04/11/2026",
+     "t": "Oficializado pelo PL como candidato à presidência do Senado. Disse ter mais de 40 votos e que vai convergir com Tereza Cristina \"no momento oportuno\".",
+     "s": "otempo",
+     "added": "2026-11-06"
+    },
+    {
+     "d": "02/11/2026",
+     "t": "Apontado como provável candidato do PL. Defende que senadores de direita tornem público o voto na eleição da Mesa.",
+     "s": "gazMar",
+     "added": "2026-11-03"
+    },
+    {
+     "d": "02/11/2026",
+     "t": "Disse à Folha que é \"difícil justificar em público o voto no Alcolumbre\".",
+     "s": "dcar",
+     "added": "2026-11-03"
+    }
+   ],
+   "candLabel": "Candidato oficial do PL"
+  },
+  {
+   "uf": "RN",
+   "nome": "Styvenson Valentim",
+   "pt": "Podemos",
+   "sit": "Reeleito em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "RN",
+   "nome": "Samanda de Lula",
+   "pt": "PT",
+   "sit": "Eleita em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "RS",
+   "nome": "Hamilton Mourão",
+   "pt": "Republicanos",
+   "sit": "Mandato até 2031",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "RS",
+   "nome": "Sanderson",
+   "pt": "PL",
+   "sit": "Eleito em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "RS",
+   "nome": "Marcel van Hattem",
+   "pt": "Novo",
+   "sit": "Eleito em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "RO",
+   "nome": "Jaime Bagattoli",
+   "pt": "PL",
+   "sit": "Mandato até 2031",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "RO",
+   "nome": "Fernando Máximo",
+   "pt": "PL",
+   "sit": "Eleito em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "RO",
+   "nome": "Bruno Scheid",
+   "pt": "PL",
+   "sit": "Eleito em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "RR",
+   "nome": "Dr. Hiran",
+   "pt": "PP",
+   "sit": "Mandato até 2031",
+   "flag": null,
+   "pos": "ind",
+   "cand": false,
+   "ev": [
+    {
+     "d": "início de nov.",
+     "t": "Disse ainda não ter definido quem vai apoiar.",
+     "s": "folhabv",
+     "added": "2026-11-03"
+    }
+   ]
+  },
+  {
+   "uf": "RR",
+   "nome": "Nicoletti",
+   "pt": "PL",
+   "sit": "Eleito em 2026",
+   "flag": null,
+   "pos": "mar",
+   "cand": false,
+   "ev": [
+    {
+     "d": "início de nov.",
+     "t": "Senador eleito por Roraima, endossou a indicação de Rogério Marinho pelo PL, citando a tramitação de pedidos de impeachment de ministros do STF.",
+     "s": "folhabv",
+     "added": "2026-11-03"
+    }
+   ]
+  },
+  {
+   "uf": "RR",
+   "nome": "Teresa Surita",
+   "pt": "MDB",
+   "sit": "Eleita em 2026",
+   "flag": null,
+   "pos": "ind",
+   "cand": false,
+   "ev": [
+    {
+     "d": "início de nov.",
+     "t": "Senadora eleita, disse ainda não ter definido quem vai apoiar.",
+     "s": "folhabv",
+     "added": "2026-11-03"
+    }
+   ]
+  },
+  {
+   "uf": "SC",
+   "nome": "Jorge Seif",
+   "pt": "PL",
+   "sit": "Mandato até 2031",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "SC",
+   "nome": "Caroline de Toni",
+   "pt": "PL",
+   "sit": "Eleita em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "SC",
+   "nome": "Carlos Bolsonaro",
+   "pt": "PL",
+   "sit": "Eleito em 2026",
+   "flag": null,
+   "pos": "mar",
+   "cand": false,
+   "ev": [
+    {
+     "d": "31/10/2026",
+     "t": "Em vídeo nas redes sociais, afirmou que o candidato do grupo à presidência do Senado é Rogério Marinho.",
+     "s": "agorarn_0211",
+     "added": "2026-11-06"
+    }
+   ]
+  },
+  {
+   "uf": "SP",
+   "nome": "Marcos Pontes",
+   "pt": "PL",
+   "sit": "Mandato até 2031",
+   "flag": null,
+   "pos": "mar",
+   "cand": false,
+   "ev": [
+    {
+     "d": "05/11/2026",
+     "t": "Em entrevista à TMC, declarou apoio à candidatura de Rogério Marinho à Presidência do Senado.",
+     "s": "tmc_0511",
+     "added": "2026-11-06"
+    }
+   ]
+  },
+  {
+   "uf": "SP",
+   "nome": "Guilherme Derrite",
+   "pt": "PP",
+   "sit": "Eleito em 2026",
+   "flag": null,
+   "pos": "con",
+   "cand": false,
+   "ev": [
+    {
+     "d": "27/10/2026",
+     "t": "Em vídeo, rompeu com a orientação da federação: \"Não votarei em Davi Alcolumbre para ser reconduzido à presidência do Senado.\" Diz que vai votar no nome que a direita escolher, Marinho ou Tereza.",
+     "s": "times",
+     "added": "2026-11-03"
+    }
+   ]
+  },
+  {
+   "uf": "SP",
+   "nome": "André do Prado",
+   "pt": "PL",
+   "sit": "Eleito em 2026",
+   "flag": null,
+   "pos": "mar",
+   "cand": false,
+   "ev": [
+    {
+     "d": "30/10/2026",
+     "t": "Em publicação nas redes sociais, declarou apoio à candidatura de Rogério Marinho.",
+     "s": "d360_3010",
+     "added": "2026-11-06"
+    }
+   ]
+  },
+  {
+   "uf": "SE",
+   "nome": "Laércio Oliveira",
+   "pt": "PP",
+   "sit": "Mandato até 2031",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "SE",
+   "nome": "Rogério Carvalho",
+   "pt": "PT",
+   "sit": "Reeleito em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "SE",
+   "nome": "Alessandro Vieira",
+   "pt": "MDB",
+   "sit": "Reeleito em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "TO",
+   "nome": "Professora Dorinha",
+   "pt": "União",
+   "sit": "Mandato até 2031",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "TO",
+   "nome": "Eduardo Gomes",
+   "pt": "PL",
+   "sit": "Reeleito em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  },
+  {
+   "uf": "TO",
+   "nome": "Alexandre Guimarães",
+   "pt": "MDB",
+   "sit": "Eleito em 2026",
+   "flag": null,
+   "pos": "non",
+   "cand": false,
+   "ev": []
+  }
+ ],
+ "OPEN": {
+  "Rogério Marinho": {
+   "st": "compromisso",
+   "t": "Defende que os senadores de direita divulguem o voto e diz que vai propor isso à bancada.",
+   "s": "gazMar"
+  }
+ },
+ "SIG": {
+  "senado": {
+   "s": "cb",
+   "t": "Assinou, como senador, o pedido de impeachment do ministro Alexandre de Moraes (aditamento protocolado por Damares Alves).",
+   "nomes": [
+    "Alan Rick",
+    "Alessandro Vieira",
+    "Marcos Pontes",
+    "Carlos Portinho",
+    "Damares Alves",
+    "Dr. Hiran",
+    "Efraim Filho",
+    "Hamilton Mourão",
+    "Jaime Bagattoli",
+    "Jorge Seif",
+    "Magno Malta",
+    "Márcio Bittar",
+    "Plínio Valério",
+    "Styvenson Valentim",
+    "Tereza Cristina",
+    "Wellington Fagundes",
+    "Wilder Morais"
+   ]
+  },
+  "candidato": {
+   "s": "msa",
+   "t": "Assinou, como candidato, a petição pelo impeachment de Alexandre de Moraes.",
+   "nomes": [
+    "Bia Kicis",
+    "Michelle Bolsonaro",
+    "Gustavo Gayer",
+    "Zé Medeiros",
+    "Deltan Dallagnol",
+    "Filipe Barros",
+    "Carlos Jordy",
+    "Carlos Portinho",
+    "Marcel van Hattem",
+    "Sanderson",
+    "Bruno Scheid",
+    "Carlos Bolsonaro",
+    "Caroline de Toni",
+    "André do Prado",
+    "Guilherme Derrite"
+   ]
+  }
+ },
+ "META": {
+  "schema": 1,
+  "lastScan": "2026-11-06T21:10:54-03:00",
+  "lastChange": "2026-11-06T19:20:00-03:00",
+  "claims": [
+   {
+    "quem": "Alcolumbre",
+    "n": 48,
+    "s": "forum",
+    "d": "out/2026"
+   },
+   {
+    "quem": "Marinho",
+    "n": 40,
+    "s": "carta",
+    "d": "04/11/2026",
+    "txt": "mais de 40"
+   },
+   {
+    "quem": "Efraim Filho (aliado de Marinho)",
+    "n": 33,
+    "s": "pbagora_0511",
+    "d": "05/11/2026",
+    "txt": "33 votos na reunião da bancada com aliados"
+   }
+  ],
+  "changelog": [
+   {
+    "ts": "2026-11-06T19:20:00-03:00",
+    "txt": "Reinaldo Azambuja (PL-MS) → Marinho (declaração publicada pelo A Crítica, 06/11)."
+   },
+   {
+    "ts": "2026-11-06T15:25:00-03:00",
+    "txt": "Zé Medeiros (PL-MT) → Marinho (fala à Gazeta do Povo, 04/11)."
+   },
+   {
+    "ts": "2026-11-06T12:19:00-03:00",
+    "txt": "Carlos Bolsonaro (PL-SC) e André do Prado (PL-SP) → Marinho; nova fala de Efraim Filho; PT atualizado (Teresa Leitão); contagem de Efraim (33) em alegações."
+   },
+   {
+    "ts": "2026-11-06T11:25:00-03:00",
+    "txt": "Marcos Pontes (PL-SP) → Marinho (entrevista à TMC, 05/11)."
+   },
+   {
+    "ts": "2026-11-06T09:00:00-03:00",
+    "txt": "Marinho oficializado candidato; Efraim Filho → Marinho; Veneziano → Alcolumbre; novas falas de Tereza Cristina; PL, Novo e PSB no quadro de partidos; Ana Paula Lobato (PSB-MA) confirmada."
+   },
+   {
+    "ts": "2026-11-03T15:00:00-03:00",
+    "txt": "Placar inicial com 10 senadores posicionados."
+   }
+  ],
+  "pending": [
+   {
+    "ts": "2026-11-06T13:15:00-03:00",
+    "nome": "Lucas Barreto e Rayssa Furlan",
+    "txt": "Diário 360 (06/11) afirma que os dois senadores do Amapá anunciaram que não apoiarão a reeleição de Alcolumbre, mas não traz declaração, data ou meio. Posições não alteradas até achar a fala dos próprios senadores.",
+    "s": "d360_0611"
+   },
+   {
+    "ts": "2026-11-06T12:19:00-03:00",
+    "nome": "Tereza Cristina",
+    "txt": "Congresso em Foco atribui a ela, em entrevista à CNN de 04/11, frase dizendo que pediria voto para Alcolumbre, o que contradiz a candidatura mantida. Conferir na fonte original (CNN) antes de registrar.",
+    "s": "cfoco_0511"
+   },
+   {
+    "ts": "2026-11-06T11:25:00-03:00",
+    "nome": "Alessandro Vieira",
+    "txt": "Análise do DMA Notícias diz que ele já declarou que não apoiará a reeleição de Alcolumbre, sem citação, data ou fonte primária. Posição não alterada até achar a declaração original.",
+    "s": "dma_0611"
+   }
+  ]
+ }
+}
