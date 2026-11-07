@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Correções e direito de resposta · 81 Votos</title><link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;900&display=swap" rel="stylesheet">
+<style>body{margin:0;background:#07090d;color:#f3f5f8;font-family:Archivo,system-ui,sans-serif;line-height:1.6}main{max-width:720px;margin:0 auto;padding:40px 22px 60px}h1{font-weight:900;letter-spacing:-.03em;text-transform:uppercase;font-size:34px;line-height:1}h2{font-size:18px;margin-top:28px}p,li{color:#a9b2c0}a{color:#d6ff3d}ul.log{list-style:none;padding:0}ul.log li{border-top:1px solid #1c2430;padding:10px 0;font-size:14.5px}ul.log time{display:block;font-family:ui-monospace,monospace;font-size:12px;color:#6b7686}</style></head>
+<body><main>
+<p><a href="./">← Voltar ao placar</a></p>
+<h1>Correções e direito de resposta</h1>
+
+<h2>Como pedir uma correção</h2>
+<p>Viu uma declaração que falta, um resumo errado ou uma posição desatualizada? Escreva para <a href="mailto:contato@81votos.com.br?subject=Correção">contato@81votos.com.br</a> com o nome do senador e o link da fonte. Conferimos e, se proceder, a mudança aparece no registro abaixo com data e hora.</p>
+
+<h2>Direito de resposta</h2>
+<p>Senadores, assessorias e partidos citados podem pedir correção ou enviar a posição oficial pelo mesmo endereço. Pedido feito por gabinete ou assessoria entra no registro como manifestação oficial, com data. Pedimos uma fonte pública (nota, post ou vídeo) para que a posição possa ser conferida por qualquer pessoa.</p>
+
+<h2>Registro público de alterações</h2>
+<ul class="log" id="log"><li>Carregando…</li></ul>
+
+<h2>Em conferência</h2>
+<p>Notícias que atribuem posição a um senador sem trazer a fala dele. Ficam aqui até acharmos a declaração original; enquanto isso, a posição no placar não muda.</p>
+<ul class="log" id="pend"><li>Carregando…</li></ul>
+</main>
+<script>
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const fmt=ts=>{try{return new Date(ts).toLocaleString('pt-BR',{timeZone:'America/Sao_Paulo',day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'});}catch(e){return ts;}};
+fetch('data.json?t='+Date.now(),{cache:'no-store'}).then(r=>r.json()).then(d=>{
+  const M=d.META||{},S=d.S||{};
+  const cl=(M.changelog||[]);
+  document.getElementById('log').innerHTML=cl.length?cl.map(c=>`<li><time>${fmt(c.ts)}</time>${esc(c.txt)}</li>`).join(''):'<li>Nenhuma alteração registrada ainda.</li>';
+  const p=(M.pending||[]);
+  document.getElementById('pend').innerHTML=p.length?p.map(c=>`<li><time>${fmt(c.ts)}</time><b>${esc(c.nome)}</b>: ${esc(c.txt)}${S[c.s]?` · <a href="${S[c.s].u}" target="_blank" rel="noopener">${esc(S[c.s].n)}</a>`:''}</li>`).join(''):'<li>Nada em conferência agora.</li>';
+}).catch(()=>{document.getElementById('log').innerHTML='<li>Não foi possível carregar os dados agora.</li>';document.getElementById('pend').innerHTML='';});
+</script>
+</body></html>

@@ -1,5 +1,5 @@
 {
- "UPDATED": "2026-11-06",
+ "UPDATED": "2026-11-07",
  "S": {
   "forum": {
    "n": "Revista Fórum (via CNN)",
@@ -124,6 +124,26 @@
   "acritica_0611": {
    "n": "A Crítica (Campo Grande)",
    "u": "https://acritica.net/politica/reinaldo-azambuja-reforca-apoio-rogerio-marinho-presidencia-senado/"
+  },
+  "fanf1_2910": {
+   "n": "Fan F1",
+   "u": "https://fanf1.com.br/2026/10/29/alessandro-diz-que-reconducao-de-alcolumbre-a-presidencia-do-senado-faz-parte-de-megaacordao-para-blindar-autoridades-nao-conte-com-o-meu-voto/"
+  },
+  "platobr_0611": {
+   "n": "PlatôBR",
+   "u": "https://platobr.com.br/alessandro-vieira-acusa-figuroes-dos-3-poderes-de-articular-megaacordao"
+  },
+  "platobr_0411": {
+   "n": "PlatôBR",
+   "u": "https://platobr.com.br/adversarios-de-davi-alcolumbre-no-amapa-se-unem-a-oposicao-no-senado"
+  },
+  "agorarn_0611": {
+   "n": "Agora RN",
+   "u": "https://agorarn.com.br/politica/rogerio-marinho-desistir-apoiar-tereza-cristina/"
+  },
+  "itatiaia_0411": {
+   "n": "Itatiaia (CNN Brasil)",
+   "u": "https://www.itatiaia.com.br/politica/tereza-cristina-disputa-presidencia-senado-voto-alcolumbre/"
   }
  },
  "PARTIES": [
@@ -171,6 +191,18 @@
   }
  ],
  "FEED": [
+  {
+   "d": "29/10",
+   "pos": "con",
+   "t": "Alessandro Vieira (MDB-SE) diz que não votará em Alcolumbre e defende nome alternativo.",
+   "s": "fanf1_2910"
+  },
+  {
+   "d": "05/11",
+   "pos": "mar",
+   "t": "Rogério Marinho diz que apoiaria Tereza Cristina se ela demonstrar melhores condições.",
+   "s": "agorarn_0611"
+  },
   {
    "d": "04/11",
    "pos": "mar",
@@ -360,7 +392,8 @@
      "d": "out/2026",
      "t": "Articula a recondução à presidência e afirmou a interlocutores ter ao menos 48 votos; sinalizou que não pretende pautar pedidos de impeachment de ministros do STF.",
      "s": "forum",
-     "added": "2026-11-03"
+     "added": "2026-11-03",
+     "nv": "relatada"
     }
    ],
    "candLabel": "Candidato à reeleição"
@@ -696,7 +729,8 @@
      "d": "04/11/2026",
      "t": "Em reunião do PL em Brasília que lançou a candidatura de Rogério Marinho, declarou apoio a ele e disse que vai buscar mais votos para sua vitória.",
      "s": "acritica_0611",
-     "added": "2026-11-06"
+     "added": "2026-11-06",
+     "nv": "relatada"
     }
    ]
   },
@@ -949,6 +983,12 @@
    "pos": "mar",
    "cand": true,
    "ev": [
+    {
+     "d": "05/11/2026",
+     "t": "Em entrevista ao Jornal da Globo, disse que apoiaria Tereza Cristina se ela demonstrar melhores condições e que espera o mesmo dela; a definição ficaria para o fim do ano.",
+     "s": "agorarn_0611",
+     "added": "2026-11-07"
+    },
     {
      "d": "04/11/2026",
      "t": "Oficializado pelo PL como candidato à presidência do Senado. Disse ter mais de 40 votos e que vai convergir com Tereza Cristina \"no momento oportuno\".",
@@ -1215,9 +1255,22 @@
    "pt": "MDB",
    "sit": "Reeleito em 2026",
    "flag": null,
-   "pos": "non",
+   "pos": "con",
    "cand": false,
-   "ev": []
+   "ev": [
+    {
+     "d": "06/11/2026",
+     "t": "Disse à coluna do PlatôBR que a reeleição de Alcolumbre é peça-chave de um acordo para encerrar investigações.",
+     "s": "platobr_0611",
+     "added": "2026-11-07"
+    },
+    {
+     "d": "29/10/2026",
+     "t": "Em publicação no X e declaração, afirmou que comunicou a Alcolumbre que não votará nele e que vai articular um nome alternativo, sem indicar candidato.",
+     "s": "fanf1_2910",
+     "added": "2026-11-07"
+    }
+   ]
   },
   {
    "uf": "TO",
@@ -1305,8 +1358,8 @@
  },
  "META": {
   "schema": 1,
-  "lastScan": "2026-11-06T21:10:54-03:00",
-  "lastChange": "2026-11-06T19:20:00-03:00",
+  "lastScan": "2026-11-07T08:56:19-03:00",
+  "lastChange": "2026-11-07T08:53:46-03:00",
   "claims": [
    {
     "quem": "Alcolumbre",
@@ -1330,6 +1383,10 @@
    }
   ],
   "changelog": [
+   {
+    "ts": "2026-11-07T08:53:46-03:00",
+    "txt": "Alessandro Vieira (MDB-SE) → contra Alcolumbre, sem candidato (X e declarações, 29/10 e 06/11); Marinho admite abrir mão para Tereza Cristina se ela for mais competitiva."
+   },
    {
     "ts": "2026-11-06T19:20:00-03:00",
     "txt": "Reinaldo Azambuja (PL-MS) → Marinho (declaração publicada pelo A Crítica, 06/11)."
@@ -1357,23 +1414,22 @@
   ],
   "pending": [
    {
-    "ts": "2026-11-06T13:15:00-03:00",
+    "ts": "2026-11-07T08:53:46-03:00",
     "nome": "Lucas Barreto e Rayssa Furlan",
-    "txt": "Diário 360 (06/11) afirma que os dois senadores do Amapá anunciaram que não apoiarão a reeleição de Alcolumbre, mas não traz declaração, data ou meio. Posições não alteradas até achar a fala dos próprios senadores.",
+    "txt": "Diário 360 (06/11) afirma que os dois senadores do Amapá anunciaram que não apoiarão a reeleição de Alcolumbre, mas não traz declaração, data ou meio. Posições não alteradas até achar a fala dos próprios senadores. PlatôBR (04/11) e Jornal da Cidade Online repetem, citando apenas relatos de pares, que os dois tendem a apoiar Tereza Cristina ou Marinho; ainda sem fala dos próprios senadores.",
     "s": "d360_0611"
    },
    {
-    "ts": "2026-11-06T12:19:00-03:00",
+    "ts": "2026-11-07T08:56:19-03:00",
     "nome": "Tereza Cristina",
-    "txt": "Congresso em Foco atribui a ela, em entrevista à CNN de 04/11, frase dizendo que pediria voto para Alcolumbre, o que contradiz a candidatura mantida. Conferir na fonte original (CNN) antes de registrar.",
-    "s": "cfoco_0511"
-   },
-   {
-    "ts": "2026-11-06T11:25:00-03:00",
-    "nome": "Alessandro Vieira",
-    "txt": "Análise do DMA Notícias diz que ele já declarou que não apoiará a reeleição de Alcolumbre, sem citação, data ou fonte primária. Posição não alterada até achar a declaração original.",
-    "s": "dma_0611"
+    "txt": "Texto da CNN (republicado pela Itatiaia, 04/11) traz a frase sobre pedir voto \"para\" Alcolumbre, mas o contexto indica que ela pediria a ele o voto para sucedê-lo. A frase é ambígua; posição mantida (candidata).",
+    "s": "itatiaia_0411"
    }
-  ]
+  ],
+  "motor": {
+   "lastRun": "2026-11-07T08:56:19-03:00",
+   "githubStatus": "erro: remote: access denied by the git proxy: 81votos-br/81votos is not in this session's authorized repository set, so the proxy will not inject a credential for it. To fix, add the repository to the session's sources. (HTTP 403; ferramenta add_repo indisponível nesta sessão)",
+   "githubLastPush": null
+  }
  }
 }
