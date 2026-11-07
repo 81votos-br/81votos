@@ -172,6 +172,14 @@
   "dpoder_0711": {
    "n": "Diário do Poder",
    "u": "https://diariodopoder.com.br/brasil-e-regioes/lsf-brasil/rogerio-marinho-ganha-apoio-de-senadores-eleitos-de-tres-partidos-para-comandar-senado"
+  },
+  "reportermt_0711": {
+   "n": "RepórterMT",
+   "u": "https://www.reportermt.com/politica/medeiros-primeira-missao-da-direita-e-eleger-rogerio-marinho-presidente-do-senado/246280"
+  },
+  "fest_0711": {
+   "n": "Folha do Estado",
+   "u": "https://www.folhadoestado.com.br/politica-nacional/pl-oficializa-rogerio-marinho-contra-alcolumbre-e-senador-quer-voto-aberto-na-disputa-pelo-senado/645091"
   }
  },
  "PARTIES": [
@@ -706,6 +714,12 @@
    "pos": "mar",
    "cand": false,
    "ev": [
+    {
+     "d": "07/11/2026",
+     "t": "Em entrevista à rádio Auriverde, diz que Alcolumbre não terá apoio dos novos senadores do PL; o veículo relata que ele defende eleger Marinho.",
+     "s": "reportermt_0711",
+     "added": "2026-11-07"
+    },
     {
      "d": "04/11/2026",
      "t": "À Gazeta do Povo, declarou apoio a Rogério Marinho e defendeu que os senadores revelem o voto.",
@@ -1386,7 +1400,7 @@
  },
  "META": {
   "schema": 1,
-  "lastScan": "2026-11-07T18:20:00-03:00",
+  "lastScan": "2026-11-07T19:20:00-03:00",
   "lastChange": "2026-11-07T08:53:46-03:00",
   "claims": [
    {
@@ -1449,6 +1463,12 @@
   ],
   "pending": [
    {
+    "ts": "2026-11-07T19:20:00-03:00",
+    "nome": "Senador não identificado (voto aberto)",
+    "txt": "Folha do Estado publicou matéria cujo título diz que um senador quer voto aberto na disputa; a página não pôde ser lida nesta varredura. Nada registrado em OPEN até verificar.",
+    "s": "fest_0711"
+   },
+   {
     "ts": "2026-11-07T18:20:00-03:00",
     "nome": "Senadores eleitos (não identificados)",
     "txt": "Diário do Poder publicou matéria com título sobre apoio de senadores eleitos de três partidos a Marinho; a página não pôde ser lida nesta varredura. Nenhuma posição alterada até verificar quem são e se há declaração dos próprios senadores.",
@@ -1498,8 +1518,8 @@
    }
   ],
   "motor": {
-   "lastRun": "2026-11-07T18:21:00-03:00",
-   "githubStatus": "erro: add_repo indisponível nesta sessão (ferramenta não encontrada); git push retornou HTTP 403: remote: access denied by the git proxy: 81votos-br/81votos is not in this session's authorized repository set, so the proxy will not inject a credential for it.",
+   "lastRun": "2026-11-07T19:20:00-03:00",
+   "githubStatus": "erro: add_repo indisponível nesta sessão (ferramenta não encontrada); git push retornou: remote: access denied by the git proxy: 81votos-br/81votos is not in this session's authorized repository set, so the proxy will not inject a credential for it.",
    "githubLastPush": null
   }
  }
