@@ -168,6 +168,10 @@
   "d360_0711": {
    "n": "Diário 360",
    "u": "https://diario360.com.br/2026/11/07/marcel-van-hattem-derrite-e-sanderson-declaram-apoio-a-rogerio-marinho-para-comandar-o-senado/"
+  },
+  "dpoder_0711": {
+   "n": "Diário do Poder",
+   "u": "https://diariodopoder.com.br/brasil-e-regioes/lsf-brasil/rogerio-marinho-ganha-apoio-de-senadores-eleitos-de-tres-partidos-para-comandar-senado"
   }
  },
  "PARTIES": [
@@ -1382,7 +1386,7 @@
  },
  "META": {
   "schema": 1,
-  "lastScan": "2026-11-07T17:10:40-03:00",
+  "lastScan": "2026-11-07T18:20:00-03:00",
   "lastChange": "2026-11-07T08:53:46-03:00",
   "claims": [
    {
@@ -1445,6 +1449,12 @@
   ],
   "pending": [
    {
+    "ts": "2026-11-07T18:20:00-03:00",
+    "nome": "Senadores eleitos (não identificados)",
+    "txt": "Diário do Poder publicou matéria com título sobre apoio de senadores eleitos de três partidos a Marinho; a página não pôde ser lida nesta varredura. Nenhuma posição alterada até verificar quem são e se há declaração dos próprios senadores.",
+    "s": "dpoder_0711"
+   },
+   {
     "ts": "2026-11-07T17:10:40-03:00",
     "nome": "Marcel van Hattem, Guilherme Derrite e Sanderson",
     "txt": "Diário 360 (07/11, assinado Redação) diz no título que os três declararam apoio a Marinho. O texto não traz aspas de nenhum deles; sobre Van Hattem, paráfrase sem data ou meio; sobre Derrite e Sanderson, só a afirmação do veículo. Posições mantidas até achar declaração dos próprios senadores.",
@@ -1488,7 +1498,7 @@
    }
   ],
   "motor": {
-   "lastRun": "2026-11-07T17:10:56-03:00",
+   "lastRun": "2026-11-07T18:21:00-03:00",
    "githubStatus": "erro: add_repo indisponível nesta sessão (ferramenta não encontrada); git push retornou HTTP 403: remote: access denied by the git proxy: 81votos-br/81votos is not in this session's authorized repository set, so the proxy will not inject a credential for it.",
    "githubLastPush": null
   }
