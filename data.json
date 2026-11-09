@@ -1,5 +1,5 @@
 {
- "UPDATED": "2026-11-07",
+ "UPDATED": "2026-11-09",
  "S": {
   "forum": {
    "n": "Revista Fórum (via CNN)",
@@ -180,6 +180,62 @@
   "fest_0711": {
    "n": "Folha do Estado",
    "u": "https://www.folhadoestado.com.br/politica-nacional/pl-oficializa-rogerio-marinho-contra-alcolumbre-e-senador-quer-voto-aberto-na-disputa-pelo-senado/645091"
+  },
+  "dcm_0811": {
+   "n": "Diário do Centro do Mundo",
+   "u": "https://www.diariodocentrodomundo.com.br/damares-alves-apoia-tereza-cristina-presidencia-senado/"
+  },
+  "jopcao_go": {
+   "n": "Jornal Opção (matéria de 30/01/2023)",
+   "u": "https://www.jornalopcao.com.br/poder/presidencia-do-senado-apenas-um-representante-da-bancada-goiana-declara-voto-462115/"
+  },
+  "imirante_0611b": {
+   "n": "Imirante (Ipolítica, com O Globo)",
+   "u": "https://m.imirante.com/noticias/brasil/2026/11/06/ipolitica-rogerio-marinho-tereza-cristina-negociam-senado"
+  },
+  "ndmais_0711": {
+   "n": "ND Mais",
+   "u": "https://ndmais.com.br/politica/disputa-pelo-senado-tereza-cristina-seria-terceira-via/"
+  },
+  "rpires_0811": {
+   "n": "Blog do Robson Pires (reproduz texto do Diário do Poder)",
+   "u": "https://robsonpiresxerife.com/rogerio-marinho-ganha-apoio-de-senadores-eleitos-de-tres-partidos-para-comandar-senado/"
+  },
+  "maracaju_0711": {
+   "n": "Maracaju Online",
+   "u": "https://maracajuonline.com.br/brasil/azambuja-contar-apoiam-rogerio-marinho-senado/"
+  },
+  "dsavio_0511": {
+   "n": "Site oficial de Domingos Sávio",
+   "u": "https://www.domingossavio.com.br/post/domingos-s%C3%A1vio-declara-apoio-%C3%A0-candidatura-de-rog%C3%A9rio-marinho-no-senado"
+  },
+  "senado_da": {
+   "n": "Senado Federal (Dados Abertos)",
+   "u": "https://legis.senado.leg.br/dadosabertos/senador/lista/atual"
+  },
+  "camara_da": {
+   "n": "Câmara dos Deputados (Dados Abertos)",
+   "u": "https://dadosabertos.camara.leg.br/api/v2/deputados"
+  },
+  "rpampa_0711": {
+   "n": "Rádio Pampa (com informações de O Globo)",
+   "u": "https://www.radiopampa.com.br/campanha-aberta-no-senado-alcolumbre-acena-a-oposicao-enquanto-marinho-e-tereza-buscam-traicoes-no-centrao/"
+  },
+  "ndh_0911": {
+   "n": "Notícias da Hora",
+   "u": "https://noticiasdahora.com.br/politica/mara-rocha-antecipa-e-declara-apoio-a-rogerio-marinho-a-presidencia-do-senado-em-2027/"
+  },
+  "ac24_0911": {
+   "n": "ac24horas (reproduz coluna Painel, da Folha de S.Paulo)",
+   "u": "https://ac24horas.com/2026/11/09/rogerio-marinho-tenta-atrair-apoio-de-alan-rick-e-mara-rocha-para-presidir-o-senado/"
+  },
+  "isn_0911": {
+   "n": "ISN Online",
+   "u": "https://isnonline.com.br/2026/11/09/alcolumbre-e-tereza-cristina-buscam-apoio-do-pl-na-disputa-pelo-senado/"
+  },
+  "em_0911": {
+   "n": "Estado de Minas (texto da Folhapress)",
+   "u": "https://www.em.com.br/politica/2026/11/7535457-senado-2027-o-grupo-secreto-de-15-nomes-que-definira-o-novo-presidente.html"
   }
  },
  "PARTIES": [
@@ -227,6 +283,24 @@
   }
  ],
  "FEED": [
+  {
+   "d": "09/11",
+   "pos": "mar",
+   "t": "Mara Rocha (Republicanos-AC) declara ao Notícias da Hora apoio a Rogério Marinho.",
+   "s": "ndh_0911"
+  },
+  {
+   "d": "05/11",
+   "pos": "mar",
+   "t": "Domingos Sávio (PL-MG) declara em seu site oficial apoio a Rogério Marinho.",
+   "s": "dsavio_0511"
+  },
+  {
+   "d": "07/11",
+   "pos": "mar",
+   "t": "Marcel van Hattem (Novo-RS) e Guilherme Derrite (PP-SP) declaram em vídeo apoio a Rogério Marinho.",
+   "s": "rpires_0811"
+  },
   {
    "d": "29/10",
    "pos": "con",
@@ -363,7 +437,22 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [
+    {
+     "d": "09/11/2026",
+     "t": "O Notícias da Hora afirma que ele ainda não decidiu o voto; nota do gabinete, em terceira pessoa, diz que apoiará uma candidatura de direita, sem citar nome. O ac24horas, citando o Painel, trata o voto como em disputa. Não há fala dele.",
+     "s": "ndh_0911",
+     "added": "2026-11-09",
+     "nv": "relatada"
+    }
+   ],
+   "contato": {
+    "email": "sen.alanrick@senado.leg.br",
+    "u": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5672",
+    "fonte": "senado_da",
+    "conf": "2026-11-08",
+    "status": "verificado"
+   }
   },
   {
    "uf": "AC",
@@ -373,7 +462,22 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [
+    {
+     "d": "09/11/2026",
+     "t": "O Notícias da Hora o descreve como defensor da candidatura de Rogério Marinho; o texto não traz fala dele.",
+     "s": "ndh_0911",
+     "added": "2026-11-09",
+     "nv": "relatada"
+    }
+   ],
+   "contato": {
+    "email": "sen.marciobittar@senado.leg.br",
+    "u": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/285",
+    "fonte": "senado_da",
+    "conf": "2026-11-08",
+    "status": "verificado"
+   }
   },
   {
    "uf": "AC",
@@ -381,9 +485,20 @@
    "pt": "Republicanos",
    "sit": "Eleita em 2026",
    "flag": null,
-   "pos": "non",
+   "pos": "mar",
    "cand": false,
-   "ev": []
+   "ev": [
+    {
+     "d": "09/11/2026",
+     "t": "Ao Notícias da Hora, declarou apoio a Rogério Marinho para a presidência do Senado: \"O senador Rogério Marinho é o meu senador\".",
+     "s": "ndh_0911",
+     "added": "2026-11-09"
+    }
+   ],
+   "contato": {
+    "status": "pendente",
+    "obs": "Eleito(a) ou suplente sem página no Senado; aguardando fonte oficial (TSE ou posse em 01/02/2027)."
+   }
   },
   {
    "uf": "AL",
@@ -393,7 +508,14 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "email": "sen.renanfilho@senado.leg.br",
+    "u": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5207",
+    "fonte": "senado_da",
+    "conf": "2026-11-08",
+    "status": "verificado"
+   }
   },
   {
    "uf": "AL",
@@ -403,7 +525,16 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "email": "dep.arthurlira@camara.leg.br",
+    "u": "https://www.camara.leg.br/deputados/160541",
+    "ul": "Página na Câmara",
+    "fonte": "camara_da",
+    "conf": "2026-11-08",
+    "status": "verificado",
+    "obs": "Contato do mandato atual de deputado(a) federal, válido até 31/01/2027."
+   }
   },
   {
    "uf": "AL",
@@ -413,7 +544,11 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "status": "pendente",
+    "obs": "Eleito(a) ou suplente sem página no Senado; aguardando fonte oficial (TSE ou posse em 01/02/2027)."
+   }
   },
   {
    "uf": "AP",
@@ -432,7 +567,14 @@
      "nv": "relatada"
     }
    ],
-   "candLabel": "Candidato à reeleição"
+   "candLabel": "Candidato à reeleição",
+   "contato": {
+    "email": "sen.davialcolumbre@senado.leg.br",
+    "u": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/3830",
+    "fonte": "senado_da",
+    "conf": "2026-11-08",
+    "status": "verificado"
+   }
   },
   {
    "uf": "AP",
@@ -442,7 +584,19 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [
+    {
+     "d": "06/11/2026",
+     "t": "O Diário 360 afirma que os dois senadores do Amapá não apoiarão a reeleição de Alcolumbre; o texto não traz declaração, data ou meio.",
+     "s": "d360_0611",
+     "added": "2026-11-08",
+     "nv": "relatada"
+    }
+   ],
+   "contato": {
+    "status": "pendente",
+    "obs": "Eleito(a) ou suplente sem página no Senado; aguardando fonte oficial (TSE ou posse em 01/02/2027)."
+   }
   },
   {
    "uf": "AP",
@@ -452,7 +606,29 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [
+    {
+     "d": "09/11/2026",
+     "t": "O ISN Online afirma que ele disse não pretender votar em Alcolumbre; o texto não traz aspas nem indica meio ou data da fala.",
+     "s": "isn_0911",
+     "added": "2026-11-09",
+     "nv": "relatada"
+    },
+    {
+     "d": "06/11/2026",
+     "t": "O Diário 360 afirma que os dois senadores do Amapá não apoiarão a reeleição de Alcolumbre; o texto não traz declaração, data ou meio.",
+     "s": "d360_0611",
+     "added": "2026-11-08",
+     "nv": "relatada"
+    }
+   ],
+   "contato": {
+    "email": "sen.lucasbarreto@senado.leg.br",
+    "u": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5926",
+    "fonte": "senado_da",
+    "conf": "2026-11-08",
+    "status": "verificado"
+   }
   },
   {
    "uf": "AM",
@@ -462,7 +638,11 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "status": "pendente",
+    "obs": "Eleito(a) ou suplente sem página no Senado; aguardando fonte oficial (TSE ou posse em 01/02/2027)."
+   }
   },
   {
    "uf": "AM",
@@ -479,7 +659,14 @@
      "s": "b247U",
      "added": "2026-11-03"
     }
-   ]
+   ],
+   "contato": {
+    "email": "sen.eduardobraga@senado.leg.br",
+    "u": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/4994",
+    "fonte": "senado_da",
+    "conf": "2026-11-08",
+    "status": "verificado"
+   }
   },
   {
    "uf": "AM",
@@ -489,7 +676,14 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "email": "sen.pliniovalerio@senado.leg.br",
+    "u": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5502",
+    "fonte": "senado_da",
+    "conf": "2026-11-08",
+    "status": "verificado"
+   }
   },
   {
    "uf": "BA",
@@ -506,7 +700,14 @@
      "s": "b247U",
      "added": "2026-11-03"
     }
-   ]
+   ],
+   "contato": {
+    "email": "sen.ottoalencar@senado.leg.br",
+    "u": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5523",
+    "fonte": "senado_da",
+    "conf": "2026-11-08",
+    "status": "verificado"
+   }
   },
   {
    "uf": "BA",
@@ -516,7 +717,11 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "status": "pendente",
+    "obs": "Eleito(a) ou suplente sem página no Senado; aguardando fonte oficial (TSE ou posse em 01/02/2027)."
+   }
   },
   {
    "uf": "BA",
@@ -526,7 +731,14 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "email": "sen.jaqueswagner@senado.leg.br",
+    "u": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/581",
+    "fonte": "senado_da",
+    "conf": "2026-11-08",
+    "status": "verificado"
+   }
   },
   {
    "uf": "CE",
@@ -536,7 +748,14 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "email": "sen.camilosantana@senado.leg.br",
+    "u": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/6336",
+    "fonte": "senado_da",
+    "conf": "2026-11-08",
+    "status": "verificado"
+   }
   },
   {
    "uf": "CE",
@@ -546,7 +765,14 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "email": "sen.cidgomes@senado.leg.br",
+    "u": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5973",
+    "fonte": "senado_da",
+    "conf": "2026-11-08",
+    "status": "verificado"
+   }
   },
   {
    "uf": "CE",
@@ -556,7 +782,17 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "email": "dep.luiziannelins@camara.leg.br",
+    "u": "https://www.camara.leg.br/deputados/178866",
+    "ul": "Página na Câmara",
+    "fonte": "camara_da",
+    "conf": "2026-11-08",
+    "status": "verificado",
+    "obs": "Contato do mandato atual de deputado(a) federal, válido até 31/01/2027.",
+    "x": "luiziannelinsPT"
+   }
   },
   {
    "uf": "DF",
@@ -568,12 +804,40 @@
    "cand": false,
    "ev": [
     {
+     "d": "09/11/2026",
+     "t": "O ac24horas, reproduzindo o Painel da Folha, afirma que ela tende a apoiar Rogério Marinho; o Estado de Minas (Folhapress) a descreve no mesmo dia como defensora de Tereza Cristina. Nenhum dos textos traz fala dela.",
+     "s": "ac24_0911",
+     "added": "2026-11-09",
+     "nv": "relatada"
+    },
+    {
+     "d": "07/11/2026",
+     "t": "A Rádio Pampa, com informações de O Globo, afirma que ela apoia Tereza Cristina; o texto não traz fala dela.",
+     "s": "rpampa_0711",
+     "added": "2026-11-08",
+     "nv": "relatada"
+    },
+    {
+     "d": "07/11/2026",
+     "t": "O Diário do Centro do Mundo afirma que ela apoia Tereza Cristina, citando interlocutores não identificados; o texto não traz fala dela.",
+     "s": "dcm_0811",
+     "added": "2026-11-08",
+     "nv": "relatada"
+    },
+    {
      "d": "início de nov.",
      "t": "Rejeitou a reeleição de Alcolumbre: \"Pode ser qualquer um menos Alcolumbre.\"",
      "s": "b247D",
      "added": "2026-11-03"
     }
-   ]
+   ],
+   "contato": {
+    "email": "sen.damaresalves@senado.leg.br",
+    "u": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/6335",
+    "fonte": "senado_da",
+    "conf": "2026-11-08",
+    "status": "verificado"
+   }
   },
   {
    "uf": "DF",
@@ -583,7 +847,11 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "status": "pendente",
+    "obs": "Eleito(a) ou suplente sem página no Senado; aguardando fonte oficial (TSE ou posse em 01/02/2027)."
+   }
   },
   {
    "uf": "DF",
@@ -593,7 +861,18 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "email": "dep.biakicis@camara.leg.br",
+    "u": "https://www.camara.leg.br/deputados/204374",
+    "ul": "Página na Câmara",
+    "fonte": "camara_da",
+    "conf": "2026-11-08",
+    "status": "verificado",
+    "obs": "Contato do mandato atual de deputado(a) federal, válido até 31/01/2027.",
+    "x": "biakicis",
+    "ig": "biakicis"
+   }
   },
   {
    "uf": "ES",
@@ -603,7 +882,14 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "email": "sen.magnomalta@senado.leg.br",
+    "u": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/631",
+    "fonte": "senado_da",
+    "conf": "2026-11-08",
+    "status": "verificado"
+   }
   },
   {
    "uf": "ES",
@@ -613,7 +899,11 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "status": "pendente",
+    "obs": "Eleito(a) ou suplente sem página no Senado; aguardando fonte oficial (TSE ou posse em 01/02/2027)."
+   }
   },
   {
    "uf": "ES",
@@ -623,7 +913,24 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [
+    {
+     "d": "09/11/2026",
+     "t": "O ac24horas, reproduzindo o Painel da Folha, afirma que ele tende a apoiar Rogério Marinho; o texto não traz fala dele.",
+     "s": "ac24_0911",
+     "added": "2026-11-09",
+     "nv": "relatada"
+    }
+   ],
+   "contato": {
+    "email": "dep.evairvieirademelo@camara.leg.br",
+    "u": "https://www.camara.leg.br/deputados/178871",
+    "ul": "Página na Câmara",
+    "fonte": "camara_da",
+    "conf": "2026-11-08",
+    "status": "verificado",
+    "obs": "Contato do mandato atual de deputado(a) federal, válido até 31/01/2027."
+   }
   },
   {
    "uf": "GO",
@@ -633,7 +940,14 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "email": "sen.wildermorais@senado.leg.br",
+    "u": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5070",
+    "fonte": "senado_da",
+    "conf": "2026-11-08",
+    "status": "verificado"
+   }
   },
   {
    "uf": "GO",
@@ -643,7 +957,18 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "email": "dep.gustavogayer@camara.leg.br",
+    "u": "https://www.camara.leg.br/deputados/220568",
+    "ul": "Página na Câmara",
+    "fonte": "camara_da",
+    "conf": "2026-11-08",
+    "status": "verificado",
+    "obs": "Contato do mandato atual de deputado(a) federal, válido até 31/01/2027.",
+    "x": "GayerGus",
+    "ig": "gusgayer"
+   }
   },
   {
    "uf": "GO",
@@ -653,7 +978,11 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "status": "pendente",
+    "obs": "Eleito(a) ou suplente sem página no Senado; aguardando fonte oficial (TSE ou posse em 01/02/2027)."
+   }
   },
   {
    "uf": "MA",
@@ -663,7 +992,14 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "email": "sen.anapaulalobato@senado.leg.br",
+    "u": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/6358",
+    "fonte": "senado_da",
+    "conf": "2026-11-08",
+    "status": "verificado"
+   }
   },
   {
    "uf": "MA",
@@ -673,7 +1009,16 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "email": "dep.andrefufuca@camara.leg.br",
+    "u": "https://www.camara.leg.br/deputados/178882",
+    "ul": "Página na Câmara",
+    "fonte": "camara_da",
+    "conf": "2026-11-08",
+    "status": "verificado",
+    "obs": "Contato do mandato atual de deputado(a) federal, válido até 31/01/2027."
+   }
   },
   {
    "uf": "MA",
@@ -683,7 +1028,11 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "status": "pendente",
+    "obs": "Eleito(a) ou suplente sem página no Senado; aguardando fonte oficial (TSE ou posse em 01/02/2027)."
+   }
   },
   {
    "uf": "MT",
@@ -693,7 +1042,14 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "email": "sen.wellingtonfagundes@senado.leg.br",
+    "u": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/1173",
+    "fonte": "senado_da",
+    "conf": "2026-11-08",
+    "status": "verificado"
+   }
   },
   {
    "uf": "MT",
@@ -703,7 +1059,11 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "status": "pendente",
+    "obs": "Eleito(a) ou suplente sem página no Senado; aguardando fonte oficial (TSE ou posse em 01/02/2027)."
+   }
   },
   {
    "uf": "MT",
@@ -726,7 +1086,18 @@
      "s": "gazpovo_0411",
      "added": "2026-11-06"
     }
-   ]
+   ],
+   "contato": {
+    "email": "dep.josemedeiros@camara.leg.br",
+    "u": "https://www.camara.leg.br/deputados/204472",
+    "ul": "Página na Câmara",
+    "fonte": "camara_da",
+    "conf": "2026-11-08",
+    "status": "verificado",
+    "obs": "Contato do mandato atual de deputado(a) federal, válido até 31/01/2027.",
+    "x": "josemedeirosmt",
+    "ig": "josemedeirosmt"
+   }
   },
   {
    "uf": "MS",
@@ -756,7 +1127,14 @@
      "added": "2026-11-03"
     }
    ],
-   "candLabel": "Candidata"
+   "candLabel": "Candidata",
+   "contato": {
+    "email": "sen.terezacristina@senado.leg.br",
+    "u": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5736",
+    "fonte": "senado_da",
+    "conf": "2026-11-08",
+    "status": "verificado"
+   }
   },
   {
    "uf": "MS",
@@ -774,7 +1152,11 @@
      "added": "2026-11-06",
      "nv": "relatada"
     }
-   ]
+   ],
+   "contato": {
+    "status": "pendente",
+    "obs": "Eleito(a) ou suplente sem página no Senado; aguardando fonte oficial (TSE ou posse em 01/02/2027)."
+   }
   },
   {
    "uf": "MS",
@@ -784,7 +1166,19 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [
+    {
+     "d": "07/11/2026",
+     "t": "Correio do Estado e Maracaju Online afirmam que declarou apoio a Rogério Marinho; nenhum dos dois reproduz fala dele nomeando o candidato.",
+     "s": "cest_0711",
+     "added": "2026-11-08",
+     "nv": "relatada"
+    }
+   ],
+   "contato": {
+    "status": "pendente",
+    "obs": "Eleito(a) ou suplente sem página no Senado; aguardando fonte oficial (TSE ou posse em 01/02/2027)."
+   }
   },
   {
    "uf": "MG",
@@ -794,7 +1188,11 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "status": "pendente",
+    "obs": "Eleito(a) ou suplente sem página no Senado; aguardando fonte oficial (TSE ou posse em 01/02/2027)."
+   }
   },
   {
    "uf": "MG",
@@ -802,9 +1200,25 @@
    "pt": "PL",
    "sit": "Eleito em 2026",
    "flag": null,
-   "pos": "non",
+   "pos": "mar",
    "cand": false,
-   "ev": []
+   "ev": [
+    {
+     "d": "05/11/2026",
+     "t": "Em publicação no seu site oficial, declara apoio à candidatura de Rogério Marinho e diz que ele compartilha os princípios do PL.",
+     "s": "dsavio_0511",
+     "added": "2026-11-08"
+    }
+   ],
+   "contato": {
+    "email": "dep.domingossavio@camara.leg.br",
+    "u": "https://www.camara.leg.br/deputados/160758",
+    "ul": "Página na Câmara",
+    "fonte": "camara_da",
+    "conf": "2026-11-08",
+    "status": "verificado",
+    "obs": "Contato do mandato atual de deputado(a) federal, válido até 31/01/2027."
+   }
   },
   {
    "uf": "MG",
@@ -814,7 +1228,11 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "status": "pendente",
+    "obs": "Eleito(a) ou suplente sem página no Senado; aguardando fonte oficial (TSE ou posse em 01/02/2027)."
+   }
   },
   {
    "uf": "PA",
@@ -824,7 +1242,14 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "email": "sen.betofaro@senado.leg.br",
+    "u": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/4639",
+    "fonte": "senado_da",
+    "conf": "2026-11-08",
+    "status": "verificado"
+   }
   },
   {
    "uf": "PA",
@@ -834,7 +1259,11 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "status": "pendente",
+    "obs": "Eleito(a) ou suplente sem página no Senado; aguardando fonte oficial (TSE ou posse em 01/02/2027)."
+   }
   },
   {
    "uf": "PA",
@@ -844,7 +1273,11 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "status": "pendente",
+    "obs": "Eleito(a) ou suplente sem página no Senado; aguardando fonte oficial (TSE ou posse em 01/02/2027)."
+   }
   },
   {
    "uf": "PB",
@@ -867,7 +1300,14 @@
      "s": "jpb",
      "added": "2026-11-06"
     }
-   ]
+   ],
+   "contato": {
+    "email": "sen.efraimfilho@senado.leg.br",
+    "u": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/4642",
+    "fonte": "senado_da",
+    "conf": "2026-11-08",
+    "status": "verificado"
+   }
   },
   {
    "uf": "PB",
@@ -877,7 +1317,11 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "status": "pendente",
+    "obs": "Eleito(a) ou suplente sem página no Senado; aguardando fonte oficial (TSE ou posse em 01/02/2027)."
+   }
   },
   {
    "uf": "PB",
@@ -894,7 +1338,14 @@
      "s": "jpb",
      "added": "2026-11-06"
     }
-   ]
+   ],
+   "contato": {
+    "email": "sen.venezianovitaldorego@senado.leg.br",
+    "u": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5748",
+    "fonte": "senado_da",
+    "conf": "2026-11-08",
+    "status": "verificado"
+   }
   },
   {
    "uf": "PR",
@@ -904,7 +1355,11 @@
    "flag": "partido a confirmar",
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "status": "pendente",
+    "obs": "Eleito(a) ou suplente sem página no Senado; aguardando fonte oficial (TSE ou posse em 01/02/2027)."
+   }
   },
   {
    "uf": "PR",
@@ -914,7 +1369,18 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "email": "dep.filipebarros@camara.leg.br",
+    "u": "https://www.camara.leg.br/deputados/204411",
+    "ul": "Página na Câmara",
+    "fonte": "camara_da",
+    "conf": "2026-11-08",
+    "status": "verificado",
+    "obs": "Contato do mandato atual de deputado(a) federal, válido até 31/01/2027.",
+    "x": "filipebarrost",
+    "ig": "filipebarrosoficial"
+   }
   },
   {
    "uf": "PR",
@@ -924,7 +1390,11 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "status": "pendente",
+    "obs": "Eleito(a) ou suplente sem página no Senado; aguardando fonte oficial (TSE ou posse em 01/02/2027)."
+   }
   },
   {
    "uf": "PE",
@@ -934,7 +1404,14 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "email": "sen.teresaleitao@senado.leg.br",
+    "u": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/6338",
+    "fonte": "senado_da",
+    "conf": "2026-11-08",
+    "status": "verificado"
+   }
   },
   {
    "uf": "PE",
@@ -944,7 +1421,14 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "email": "sen.humbertocosta@senado.leg.br",
+    "u": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5008",
+    "fonte": "senado_da",
+    "conf": "2026-11-08",
+    "status": "verificado"
+   }
   },
   {
    "uf": "PE",
@@ -954,7 +1438,11 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "status": "pendente",
+    "obs": "Eleito(a) ou suplente sem página no Senado; aguardando fonte oficial (TSE ou posse em 01/02/2027)."
+   }
   },
   {
    "uf": "PI",
@@ -964,7 +1452,14 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "email": "sen.jussaralima@senado.leg.br",
+    "u": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/6369",
+    "fonte": "senado_da",
+    "conf": "2026-11-08",
+    "status": "verificado"
+   }
   },
   {
    "uf": "PI",
@@ -974,7 +1469,14 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "email": "sen.marcelocastro@senado.leg.br",
+    "u": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/742",
+    "fonte": "senado_da",
+    "conf": "2026-11-08",
+    "status": "verificado"
+   }
   },
   {
    "uf": "PI",
@@ -984,7 +1486,18 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "email": "dep.juliocesar@camara.leg.br",
+    "u": "https://www.camara.leg.br/deputados/74317",
+    "ul": "Página na Câmara",
+    "fonte": "camara_da",
+    "conf": "2026-11-08",
+    "status": "verificado",
+    "obs": "Contato do mandato atual de deputado(a) federal, válido até 31/01/2027.",
+    "x": "depjuliocesarPI",
+    "ig": "deputadojuliocesar"
+   }
   },
   {
    "uf": "RJ",
@@ -994,7 +1507,14 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "email": "sen.romario@senado.leg.br",
+    "u": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5322",
+    "fonte": "senado_da",
+    "conf": "2026-11-08",
+    "status": "verificado"
+   }
   },
   {
    "uf": "RJ",
@@ -1004,7 +1524,22 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [
+    {
+     "d": "07/11/2026",
+     "t": "O Jacaré relata que defendeu Tereza Cristina em reunião com senadores eleitos do PP; o próprio texto diz que ele não anunciou apoio formal.",
+     "s": "ojacare_0711",
+     "added": "2026-11-08",
+     "nv": "relatada"
+    }
+   ],
+   "contato": {
+    "email": "sen.carlosportinho@senado.leg.br",
+    "u": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5936",
+    "fonte": "senado_da",
+    "conf": "2026-11-08",
+    "status": "verificado"
+   }
   },
   {
    "uf": "RJ",
@@ -1014,7 +1549,18 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "email": "dep.carlosjordy@camara.leg.br",
+    "u": "https://www.camara.leg.br/deputados/204460",
+    "ul": "Página na Câmara",
+    "fonte": "camara_da",
+    "conf": "2026-11-08",
+    "status": "verificado",
+    "obs": "Contato do mandato atual de deputado(a) federal, válido até 31/01/2027.",
+    "x": "carlosjordy",
+    "ig": "carlosjordy"
+   }
   },
   {
    "uf": "RN",
@@ -1050,7 +1596,14 @@
      "added": "2026-11-03"
     }
    ],
-   "candLabel": "Candidato oficial do PL"
+   "candLabel": "Candidato oficial do PL",
+   "contato": {
+    "email": "sen.rogeriomarinho@senado.leg.br",
+    "u": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/4694",
+    "fonte": "senado_da",
+    "conf": "2026-11-08",
+    "status": "verificado"
+   }
   },
   {
    "uf": "RN",
@@ -1060,7 +1613,22 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [
+    {
+     "d": "04/11/2026",
+     "t": "A 96FM afirma que ele sinalizou voto em Rogério Marinho em resposta a um seguidor nas redes sociais; a publicação não foi reproduzida.",
+     "s": "96fm_0411",
+     "added": "2026-11-08",
+     "nv": "relatada"
+    }
+   ],
+   "contato": {
+    "email": "sen.styvensonvalentim@senado.leg.br",
+    "u": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5959",
+    "fonte": "senado_da",
+    "conf": "2026-11-08",
+    "status": "verificado"
+   }
   },
   {
    "uf": "RN",
@@ -1070,7 +1638,11 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "status": "pendente",
+    "obs": "Eleito(a) ou suplente sem página no Senado; aguardando fonte oficial (TSE ou posse em 01/02/2027)."
+   }
   },
   {
    "uf": "RS",
@@ -1080,7 +1652,22 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [
+    {
+     "d": "09/11/2026",
+     "t": "O ac24horas, reproduzindo o Painel da Folha, afirma que ele tende a apoiar Rogério Marinho; o texto não traz fala dele.",
+     "s": "ac24_0911",
+     "added": "2026-11-09",
+     "nv": "relatada"
+    }
+   ],
+   "contato": {
+    "email": "sen.hamiltonmourao@senado.leg.br",
+    "u": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/6341",
+    "fonte": "senado_da",
+    "conf": "2026-11-08",
+    "status": "verificado"
+   }
   },
   {
    "uf": "RS",
@@ -1090,7 +1677,26 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [
+    {
+     "d": "07/11/2026",
+     "t": "Aparece no vídeo de senadores eleitos em apoio a Rogério Marinho, segundo o Diário do Poder; a fala dele reproduzida trata do STF, não do voto.",
+     "s": "rpires_0811",
+     "added": "2026-11-08",
+     "nv": "relatada"
+    }
+   ],
+   "contato": {
+    "email": "dep.sanderson@camara.leg.br",
+    "u": "https://www.camara.leg.br/deputados/204416",
+    "ul": "Página na Câmara",
+    "fonte": "camara_da",
+    "conf": "2026-11-08",
+    "status": "verificado",
+    "obs": "Contato do mandato atual de deputado(a) federal, válido até 31/01/2027.",
+    "x": "depsanderson",
+    "ig": "sandersonrs"
+   }
   },
   {
    "uf": "RS",
@@ -1098,9 +1704,27 @@
    "pt": "Novo",
    "sit": "Eleito em 2026",
    "flag": null,
-   "pos": "non",
+   "pos": "mar",
    "cand": false,
-   "ev": []
+   "ev": [
+    {
+     "d": "07/11/2026",
+     "t": "Em vídeo gravado com Derrite e Sanderson, declarou apoio a Rogério Marinho para presidente do Senado, em nome de senadores eleitos do Novo, PL e PP.",
+     "s": "rpires_0811",
+     "added": "2026-11-08"
+    }
+   ],
+   "contato": {
+    "email": "dep.marcelvanhattem@camara.leg.br",
+    "u": "https://www.camara.leg.br/deputados/156190",
+    "ul": "Página na Câmara",
+    "fonte": "camara_da",
+    "conf": "2026-11-08",
+    "status": "verificado",
+    "obs": "Contato do mandato atual de deputado(a) federal, válido até 31/01/2027.",
+    "x": "MARCELVANHATTEM",
+    "ig": "MARCELVANHATTEM"
+   }
   },
   {
    "uf": "RO",
@@ -1110,7 +1734,14 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "email": "sen.jaimebagattoli@senado.leg.br",
+    "u": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/6340",
+    "fonte": "senado_da",
+    "conf": "2026-11-08",
+    "status": "verificado"
+   }
   },
   {
    "uf": "RO",
@@ -1120,7 +1751,18 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "email": "dep.dr.fernandomaximo@camara.leg.br",
+    "u": "https://www.camara.leg.br/deputados/220610",
+    "ul": "Página na Câmara",
+    "fonte": "camara_da",
+    "conf": "2026-11-08",
+    "status": "verificado",
+    "obs": "Contato do mandato atual de deputado(a) federal, válido até 31/01/2027.",
+    "x": "fernandomaximoX",
+    "ig": "drfernandomaximo007"
+   }
   },
   {
    "uf": "RO",
@@ -1130,7 +1772,11 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "status": "pendente",
+    "obs": "Eleito(a) ou suplente sem página no Senado; aguardando fonte oficial (TSE ou posse em 01/02/2027)."
+   }
   },
   {
    "uf": "RR",
@@ -1147,7 +1793,14 @@
      "s": "folhabv",
      "added": "2026-11-03"
     }
-   ]
+   ],
+   "contato": {
+    "email": "sen.drhiran@senado.leg.br",
+    "u": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5793",
+    "fonte": "senado_da",
+    "conf": "2026-11-08",
+    "status": "verificado"
+   }
   },
   {
    "uf": "RR",
@@ -1164,7 +1817,18 @@
      "s": "folhabv",
      "added": "2026-11-03"
     }
-   ]
+   ],
+   "contato": {
+    "email": "dep.nicoletti@camara.leg.br",
+    "u": "https://www.camara.leg.br/deputados/204479",
+    "ul": "Página na Câmara",
+    "fonte": "camara_da",
+    "conf": "2026-11-08",
+    "status": "verificado",
+    "obs": "Contato do mandato atual de deputado(a) federal, válido até 31/01/2027.",
+    "x": "depnicoletti",
+    "ig": "deputadonicoletti"
+   }
   },
   {
    "uf": "RR",
@@ -1181,7 +1845,11 @@
      "s": "folhabv",
      "added": "2026-11-03"
     }
-   ]
+   ],
+   "contato": {
+    "status": "pendente",
+    "obs": "Eleito(a) ou suplente sem página no Senado; aguardando fonte oficial (TSE ou posse em 01/02/2027)."
+   }
   },
   {
    "uf": "SC",
@@ -1191,7 +1859,14 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "email": "sen.jorgeseif@senado.leg.br",
+    "u": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/6342",
+    "fonte": "senado_da",
+    "conf": "2026-11-08",
+    "status": "verificado"
+   }
   },
   {
    "uf": "SC",
@@ -1201,7 +1876,18 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "email": "dep.carolinedetoni@camara.leg.br",
+    "u": "https://www.camara.leg.br/deputados/204369",
+    "ul": "Página na Câmara",
+    "fonte": "camara_da",
+    "conf": "2026-11-08",
+    "status": "verificado",
+    "obs": "Contato do mandato atual de deputado(a) federal, válido até 31/01/2027.",
+    "x": "CarolDeToni",
+    "ig": "carolinedetoni"
+   }
   },
   {
    "uf": "SC",
@@ -1218,7 +1904,11 @@
      "s": "agorarn_0211",
      "added": "2026-11-06"
     }
-   ]
+   ],
+   "contato": {
+    "status": "pendente",
+    "obs": "Eleito(a) ou suplente sem página no Senado; aguardando fonte oficial (TSE ou posse em 01/02/2027)."
+   }
   },
   {
    "uf": "SP",
@@ -1235,7 +1925,14 @@
      "s": "tmc_0511",
      "added": "2026-11-06"
     }
-   ]
+   ],
+   "contato": {
+    "email": "sen.astronautamarcospontes@senado.leg.br",
+    "u": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/6009",
+    "fonte": "senado_da",
+    "conf": "2026-11-08",
+    "status": "verificado"
+   }
   },
   {
    "uf": "SP",
@@ -1243,16 +1940,33 @@
    "pt": "PP",
    "sit": "Eleito em 2026",
    "flag": null,
-   "pos": "con",
+   "pos": "mar",
    "cand": false,
    "ev": [
+    {
+     "d": "07/11/2026",
+     "t": "No mesmo vídeo com Van Hattem e Sanderson, declarou apoio a Rogério Marinho: \"Estamos juntos\".",
+     "s": "rpires_0811",
+     "added": "2026-11-08"
+    },
     {
      "d": "27/10/2026",
      "t": "Em vídeo, rompeu com a orientação da federação: \"Não votarei em Davi Alcolumbre para ser reconduzido à presidência do Senado.\" Diz que vai votar no nome que a direita escolher, Marinho ou Tereza.",
      "s": "times",
      "added": "2026-11-03"
     }
-   ]
+   ],
+   "contato": {
+    "email": "dep.guilhermederrite@camara.leg.br",
+    "u": "https://www.camara.leg.br/deputados/204531",
+    "ul": "Página na Câmara",
+    "fonte": "camara_da",
+    "conf": "2026-11-08",
+    "status": "verificado",
+    "obs": "Contato do mandato atual de deputado(a) federal, válido até 31/01/2027.",
+    "x": "capitaoderrite",
+    "ig": "capitaoderrite"
+   }
   },
   {
    "uf": "SP",
@@ -1269,7 +1983,11 @@
      "s": "d360_3010",
      "added": "2026-11-06"
     }
-   ]
+   ],
+   "contato": {
+    "status": "pendente",
+    "obs": "Eleito(a) ou suplente sem página no Senado; aguardando fonte oficial (TSE ou posse em 01/02/2027)."
+   }
   },
   {
    "uf": "SE",
@@ -1279,7 +1997,14 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "email": "sen.laerciooliveira@senado.leg.br",
+    "u": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/4811",
+    "fonte": "senado_da",
+    "conf": "2026-11-08",
+    "status": "verificado"
+   }
   },
   {
    "uf": "SE",
@@ -1289,7 +2014,14 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "email": "sen.rogeriocarvalho@senado.leg.br",
+    "u": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5352",
+    "fonte": "senado_da",
+    "conf": "2026-11-08",
+    "status": "verificado"
+   }
   },
   {
    "uf": "SE",
@@ -1312,7 +2044,14 @@
      "s": "fanf1_2910",
      "added": "2026-11-07"
     }
-   ]
+   ],
+   "contato": {
+    "email": "sen.alessandrovieira@senado.leg.br",
+    "u": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5982",
+    "fonte": "senado_da",
+    "conf": "2026-11-08",
+    "status": "verificado"
+   }
   },
   {
    "uf": "TO",
@@ -1322,7 +2061,14 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "email": "sen.professoradorinhaseabra@senado.leg.br",
+    "u": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5386",
+    "fonte": "senado_da",
+    "conf": "2026-11-08",
+    "status": "verificado"
+   }
   },
   {
    "uf": "TO",
@@ -1332,7 +2078,14 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "email": "sen.eduardogomes@senado.leg.br",
+    "u": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/3777",
+    "fonte": "senado_da",
+    "conf": "2026-11-08",
+    "status": "verificado"
+   }
   },
   {
    "uf": "TO",
@@ -1342,7 +2095,16 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": []
+   "ev": [],
+   "contato": {
+    "email": "dep.alexandreguimaraes@camara.leg.br",
+    "u": "https://www.camara.leg.br/deputados/220542",
+    "ul": "Página na Câmara",
+    "fonte": "camara_da",
+    "conf": "2026-11-08",
+    "status": "verificado",
+    "obs": "Contato do mandato atual de deputado(a) federal, válido até 31/01/2027."
+   }
   }
  ],
  "OPEN": {
@@ -1400,8 +2162,8 @@
  },
  "META": {
   "schema": 1,
-  "lastScan": "2026-11-07T19:20:00-03:00",
-  "lastChange": "2026-11-07T08:53:46-03:00",
+  "lastScan": "2026-11-09T19:25:00-03:00",
+  "lastChange": "2026-11-09T19:25:00-03:00",
   "claims": [
    {
     "quem": "Alcolumbre",
@@ -1433,6 +2195,18 @@
   ],
   "changelog": [
    {
+    "ts": "2026-11-09T19:25:00-03:00",
+    "txt": "Mara Rocha (Republicanos-AC) → Marinho (declaração ao Notícias da Hora, 09/11). Relatadas sem fala direta: Alan Rick, Márcio Bittar, Hamilton Mourão, Evair de Melo, Damares Alves (relatos divergentes) e Lucas Barreto."
+   },
+   {
+    "ts": "2026-11-08T14:25:00-03:00",
+    "txt": "Domingos Sávio (PL-MG) → Marinho (publicação no site oficial do senador eleito, 05/11)."
+   },
+   {
+    "ts": "2026-11-08T11:40:00-03:00",
+    "txt": "Marcel van Hattem (Novo-RS) → Marinho; Guilherme Derrite (PP-SP): de contra Alcolumbre → Marinho (vídeo, via Diário do Poder, 07/11). Fila de pendências revisada: 9 relatos sem fala direta entram nas fichas com selo \"relatada\", sem mudar o placar."
+   },
+   {
     "ts": "2026-11-07T08:53:46-03:00",
     "txt": "Alessandro Vieira (MDB-SE) → contra Alcolumbre, sem candidato (X e declarações, 29/10 e 06/11); Marinho admite abrir mão para Tereza Cristina se ela for mais competitiva."
    },
@@ -1463,63 +2237,126 @@
   ],
   "pending": [
    {
+    "ts": "2026-11-08T10:25:00-03:00",
+    "nome": "Tereza Cristina (contagem)",
+    "txt": "ND Mais (07/11, Tatiana Azevedo) atribui a Tereza Cristina uma contagem de 12 apoios e a aliados a possibilidade de chegar a 42; não há fala direta dela com o número. Não registrado em alegações até haver declaração da própria candidata.",
+    "s": "ndmais_0711",
+    "status": "descartada",
+    "resolucao": "Contagem atribuída pelo jornal, sem fala da candidata (regra 7).",
+    "fechadoEm": "2026-11-08T11:40:00-03:00"
+   },
+   {
+    "ts": "2026-11-08T07:20:00-03:00",
+    "nome": "Bia Kicis",
+    "txt": "Imirante (06/11, com O Globo) relata que ela defende Tereza Cristina no biênio 2029 e traz fala dela esperando um acordo entre os pré-candidatos; não declara voto para fevereiro de 2027. Posição mantida (sem manifestação).",
+    "s": "imirante_0611b",
+    "status": "descartada",
+    "resolucao": "A fala trata do biênio 2029, não do voto de fev/2027.",
+    "fechadoEm": "2026-11-08T11:40:00-03:00"
+   },
+   {
+    "ts": "2026-11-07T23:11:17-03:00",
+    "nome": "Damares Alves",
+    "txt": "Diário do Centro do Mundo (07/11, redação) afirma no título que ela apoia Tereza Cristina, mas o texto não traz fala dela; a informação é atribuída a interlocutores não identificados. Posição mantida (contra Alcolumbre, sem candidato definido) até declaração da própria senadora.",
+    "s": "dcm_0811",
+    "status": "resolvida",
+    "resolucao": "Registrado na ficha como relatada; posição mantida.",
+    "fechadoEm": "2026-11-08T11:40:00-03:00"
+   },
+   {
+    "ts": "2026-11-07T23:11:17-03:00",
+    "nome": "Bancada de Goiás (Wilder Morais, Gustavo Gayer, Gracinha Caiado)",
+    "txt": "Jornal Opção publicou matéria cujo título diz que apenas um representante da bancada goiana declarou voto; a página não pôde ser lida nesta varredura. Nenhuma posição alterada até verificar quem é e a declaração.",
+    "s": "jopcao_go",
+    "status": "descartada",
+    "prazo": "2026-11-10T23:59:00-03:00",
+    "resolucao": "A matéria é de 30/01/2023 e trata da eleição de 2023 (Pacheco × Marinho), não do voto de fev/2027. Texto conferido pelo dono do site.",
+    "fechadoEm": "2026-11-08T16:50:00-03:00"
+   },
+   {
     "ts": "2026-11-07T19:20:00-03:00",
     "nome": "Senador não identificado (voto aberto)",
-    "txt": "Folha do Estado publicou matéria cujo título diz que um senador quer voto aberto na disputa; a página não pôde ser lida nesta varredura. Nada registrado em OPEN até verificar.",
-    "s": "fest_0711"
+    "txt": "Folha do Estado publicou matéria cujo título diz que um senador quer voto aberto na disputa; a página não pôde ser lida nesta varredura. Nada registrado em OPEN até verificar. Varredura de 08/11 17h: página segue sem leitura automática; outras coberturas do mesmo dia atribuem a defesa do voto aberto a Rogério Marinho, sem confirmação de que é ele o senador do título. Varredura de 09/11 19h: nenhuma republicação da matéria localizada; segue aberta até o prazo.",
+    "s": "fest_0711",
+    "status": "aberta",
+    "prazo": "2026-11-10T23:59:00-03:00"
    },
    {
     "ts": "2026-11-07T18:20:00-03:00",
     "nome": "Senadores eleitos (não identificados)",
     "txt": "Diário do Poder publicou matéria com título sobre apoio de senadores eleitos de três partidos a Marinho; a página não pôde ser lida nesta varredura. Nenhuma posição alterada até verificar quem são e se há declaração dos próprios senadores.",
-    "s": "dpoder_0711"
+    "s": "dpoder_0711",
+    "status": "resolvida",
+    "resolucao": "São Van Hattem, Derrite e Sanderson; ver item acima.",
+    "fechadoEm": "2026-11-08T11:40:00-03:00"
    },
    {
     "ts": "2026-11-07T17:10:40-03:00",
     "nome": "Marcel van Hattem, Guilherme Derrite e Sanderson",
     "txt": "Diário 360 (07/11, assinado Redação) diz no título que os três declararam apoio a Marinho. O texto não traz aspas de nenhum deles; sobre Van Hattem, paráfrase sem data ou meio; sobre Derrite e Sanderson, só a afirmação do veículo. Posições mantidas até achar declaração dos próprios senadores.",
-    "s": "d360_0711"
+    "s": "d360_0711",
+    "status": "resolvida",
+    "resolucao": "Vídeo reproduzido pelo Blog do Robson Pires (texto do Diário do Poder, 07/11): Van Hattem e Derrite declaram apoio a Marinho (→ mar); Sanderson só fala do STF (ficha: relatada).",
+    "fechadoEm": "2026-11-08T11:40:00-03:00"
    },
    {
     "ts": "2026-11-07T16:11:32-03:00",
     "nome": "Renato Casagrande",
     "txt": "Em entrevista ao TC Online (06/11), cita os três pré-candidatos e diz que o PSB conversa com todos e que \"estamos no começo\"; a afirmação de que é cedo para definir o voto é paráfrase do repórter. Não declarou apoio. Posição mantida (sem manifestação) até declaração explícita de indefinição ou apoio.",
-    "s": "tconline_0611"
+    "s": "tconline_0611",
+    "status": "descartada",
+    "resolucao": "A fala não declara apoio nem indefinição.",
+    "fechadoEm": "2026-11-08T11:40:00-03:00"
    },
    {
     "ts": "2026-11-07T14:20:00-03:00",
     "nome": "Carlos Portinho",
     "txt": "O Jacaré (07/11) relata que Portinho, líder do PL, defendeu Tereza Cristina em reunião com senadores eleitos do PP e cita fala à CNN de que ela \"sempre esteve conosco\"; o próprio texto diz que ele não anunciou apoio formal. Posição mantida.",
-    "s": "ojacare_0711"
+    "s": "ojacare_0711",
+    "status": "resolvida",
+    "resolucao": "Registrado na ficha como relatada; posição mantida.",
+    "fechadoEm": "2026-11-08T11:40:00-03:00"
    },
    {
     "ts": "2026-11-07T14:20:00-03:00",
     "nome": "Styvenson Valentim",
     "txt": "96FM (04/11) diz no título que ele anunciou voto em Marinho, mas o texto relata, sem reproduzir a fala, que ele sinalizou isso em resposta a um seguidor nas redes sociais. Posição mantida até achar a publicação ou declaração do próprio senador.",
-    "s": "96fm_0411"
+    "s": "96fm_0411",
+    "status": "resolvida",
+    "resolucao": "Registrado na ficha como relatada; posição mantida.",
+    "fechadoEm": "2026-11-08T11:40:00-03:00"
    },
    {
     "ts": "2026-11-07T10:20:00-03:00",
     "nome": "Capitão Contar",
     "txt": "Correio do Estado (07/11) afirma no título e no lide que Contar declarou apoio a Marinho, mas a fala dele entre aspas não nomeia o candidato; o texto diz, sem aspas, que ele seguirá a indicação do PL. Ele também defendeu, entre aspas, que o eleitor saiba como votou o senador. Posição mantida até haver declaração direta.",
-    "s": "cest_0711"
+    "s": "cest_0711",
+    "status": "resolvida",
+    "resolucao": "Registrado na ficha como relatada (Correio do Estado e Maracaju Online); posição mantida.",
+    "fechadoEm": "2026-11-08T11:40:00-03:00"
    },
    {
     "ts": "2026-11-07T08:53:46-03:00",
     "nome": "Lucas Barreto e Rayssa Furlan",
     "txt": "Diário 360 (06/11) afirma que os dois senadores do Amapá anunciaram que não apoiarão a reeleição de Alcolumbre, mas não traz declaração, data ou meio. Posições não alteradas até achar a fala dos próprios senadores. PlatôBR (04/11) e Jornal da Cidade Online repetem, citando apenas relatos de pares, que os dois tendem a apoiar Tereza Cristina ou Marinho; ainda sem fala dos próprios senadores.",
-    "s": "d360_0611"
+    "s": "d360_0611",
+    "status": "resolvida",
+    "resolucao": "Registrado nas fichas como relatada; posições mantidas.",
+    "fechadoEm": "2026-11-08T11:40:00-03:00"
    },
    {
     "ts": "2026-11-07T08:56:19-03:00",
     "nome": "Tereza Cristina",
     "txt": "Texto da CNN (republicado pela Itatiaia, 04/11) traz a frase sobre pedir voto \"para\" Alcolumbre, mas o contexto indica que ela pediria a ele o voto para sucedê-lo. A frase é ambígua; posição mantida (candidata).",
-    "s": "itatiaia_0411"
+    "s": "itatiaia_0411",
+    "status": "descartada",
+    "resolucao": "Ela é candidata; frase ambígua não altera nada.",
+    "fechadoEm": "2026-11-08T11:40:00-03:00"
    }
   ],
   "motor": {
-   "lastRun": "2026-11-07T19:20:00-03:00",
-   "githubStatus": "erro: add_repo indisponível nesta sessão (ferramenta não encontrada); git push retornou: remote: access denied by the git proxy: 81votos-br/81votos is not in this session's authorized repository set, so the proxy will not inject a credential for it.",
+   "lastRun": "2026-11-09T19:30:00-03:00",
+   "githubStatus": "erro: remote: access denied by the git proxy: 81votos-br/81votos is not in this session's authorized repository set, so the proxy will not inject a credential for it. To fix, add the repository to the session's sources. (add_repo indisponível nesta sessão)",
    "githubLastPush": null
   }
  }
