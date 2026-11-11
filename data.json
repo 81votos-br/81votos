@@ -1,5 +1,5 @@
 {
- "UPDATED": "2026-11-09",
+ "UPDATED": "2026-11-11",
  "S": {
   "forum": {
    "n": "Revista Fórum (via CNN)",
@@ -236,6 +236,30 @@
   "em_0911": {
    "n": "Estado de Minas (texto da Folhapress)",
    "u": "https://www.em.com.br/politica/2026/11/7535457-senado-2027-o-grupo-secreto-de-15-nomes-que-definira-o-novo-presidente.html"
+  },
+  "tsertao_0911": {
+   "n": "Tribuna do Sertão (reproduz texto da Agência O Globo)",
+   "u": "https://www.tribunadosertao.com.br/poder-e-governo/2026/11/09/1016681-michelle-adota-misterio-sobre-seu-posicionamento-na-eleicao-do-senado-e-sofre-pressao-de-integrantes-do-pl-por-apoio-a-marinho"
+  },
+  "bnewsrn_0911": {
+   "n": "BNews RN",
+   "u": "https://www.bnewsrn.com.br/noticias/politica/rogerio-marinho-promete-dialogo-com-lula-e-stf-se-assumir-presidencia-do-senado.html"
+  },
+  "bnot_0911": {
+   "n": "Bahia Notícias (com apuração da CNN Brasil)",
+   "u": "https://www.bahianoticias.com.br/noticia/323464-alcolumbre-e-tereza-acenam-ao-pl-em-busca-de-apoio-para-o-comando-do-senado"
+  },
+  "rcn67_1011": {
+   "n": "RCN67",
+   "u": "https://www.rcn67.com.br/tres-lagoas/ms-azambuja-reafirma-voto-marinho-senado"
+  },
+  "dma_1011": {
+   "n": "DMA Notícias",
+   "u": "https://dmanoticias.com.br/alcolumbre-parte-de-uma-projecao-de-31-votos-e-precisa-buscar-mais-dez/"
+  },
+  "cb_1011": {
+   "n": "Correio Braziliense",
+   "u": "https://www.correiobraziliense.com.br/politica/2026/11/7536065-michelle-deve-anunciar-apoio-a-disputa-pelo-senado-perto-do-pleito-diz-damares.html"
   }
  },
  "PARTIES": [
@@ -283,6 +307,12 @@
   }
  ],
  "FEED": [
+  {
+   "d": "10/11",
+   "pos": "mar",
+   "t": "Reinaldo Azambuja (PL-MS) reafirma em vídeo e entrevista ao RCN67 voto em Rogério Marinho.",
+   "s": "rcn67_1011"
+  },
   {
    "d": "09/11",
    "pos": "mar",
@@ -586,6 +616,20 @@
    "cand": false,
    "ev": [
     {
+     "d": "10/11/2026",
+     "t": "O DMA Notícias afirma, citando relatos de bastidores, que os dois senadores do Amapá caminharão com a oposição a Alcolumbre; o texto não traz fala deles.",
+     "s": "dma_1011",
+     "nv": "relatada",
+     "added": "2026-11-11"
+    },
+    {
+     "d": "09/11/2026",
+     "t": "O Bahia Notícias, com apuração da CNN Brasil, afirma que ela deve se aliar à oposição; o texto não traz fala dela.",
+     "s": "bnot_0911",
+     "added": "2026-11-09",
+     "nv": "relatada"
+    },
+    {
      "d": "06/11/2026",
      "t": "O Diário 360 afirma que os dois senadores do Amapá não apoiarão a reeleição de Alcolumbre; o texto não traz declaração, data ou meio.",
      "s": "d360_0611",
@@ -607,6 +651,20 @@
    "pos": "non",
    "cand": false,
    "ev": [
+    {
+     "d": "10/11/2026",
+     "t": "O DMA Notícias afirma, citando relatos de bastidores, que os dois senadores do Amapá caminharão com a oposição a Alcolumbre; o texto não traz fala deles.",
+     "s": "dma_1011",
+     "nv": "relatada",
+     "added": "2026-11-11"
+    },
+    {
+     "d": "09/11/2026",
+     "t": "O Bahia Notícias, com apuração da CNN Brasil, afirma que ele disse que não votará em Alcolumbre; o texto não traz aspas nem indica meio ou data da fala.",
+     "s": "bnot_0911",
+     "added": "2026-11-09",
+     "nv": "relatada"
+    },
     {
      "d": "09/11/2026",
      "t": "O ISN Online afirma que ele disse não pretender votar em Alcolumbre; o texto não traz aspas nem indica meio ou data da fala.",
@@ -847,7 +905,22 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": [],
+   "ev": [
+    {
+     "d": "10/11/2026",
+     "t": "O Correio Braziliense relata que Damares Alves disse que ela deve anunciar apoio perto da eleição; o texto não traz fala dela.",
+     "s": "cb_1011",
+     "nv": "relatada",
+     "added": "2026-11-11"
+    },
+    {
+     "d": "09/11/2026",
+     "t": "O Globo (via Tribuna do Sertão) afirma, citando interlocutores, que ela não vai se posicionar agora e deixará a decisão para 2027; procurada, não comentou. O texto não traz fala dela.",
+     "s": "tsertao_0911",
+     "added": "2026-11-09",
+     "nv": "relatada"
+    }
+   ],
    "contato": {
     "status": "pendente",
     "obs": "Eleito(a) ou suplente sem página no Senado; aguardando fonte oficial (TSE ou posse em 01/02/2027)."
@@ -861,7 +934,15 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": [],
+   "ev": [
+    {
+     "d": "09/11/2026",
+     "t": "O BNews RN afirma que ela defendeu que Tereza Cristina fique com a presidência no segundo biênio; o texto não traz fala dela nem diz em quem vota em fev/2027.",
+     "s": "bnewsrn_0911",
+     "added": "2026-11-09",
+     "nv": "relatada"
+    }
+   ],
    "contato": {
     "email": "dep.biakicis@camara.leg.br",
     "u": "https://www.camara.leg.br/deputados/204374",
@@ -1145,6 +1226,12 @@
    "pos": "mar",
    "cand": false,
    "ev": [
+    {
+     "d": "10/11/2026",
+     "t": "Em entrevista e em vídeo gravado ao lado de Rogério Marinho, reafirma voto nele e o chama de nosso candidato a presidente do Senado.",
+     "s": "rcn67_1011",
+     "added": "2026-11-11"
+    },
     {
      "d": "04/11/2026",
      "t": "Em reunião do PL em Brasília que lançou a candidatura de Rogério Marinho, declarou apoio a ele e disse que vai buscar mais votos para sua vitória.",
@@ -2095,7 +2182,15 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": [],
+   "ev": [
+    {
+     "d": "10/11/2026",
+     "t": "O DMA Notícias afirma que ele se manifestou contra a reeleição de Alcolumbre; o texto não traz fala dele nem indica meio ou data.",
+     "s": "dma_1011",
+     "nv": "relatada",
+     "added": "2026-11-11"
+    }
+   ],
    "contato": {
     "email": "dep.alexandreguimaraes@camara.leg.br",
     "u": "https://www.camara.leg.br/deputados/220542",
@@ -2162,8 +2257,8 @@
  },
  "META": {
   "schema": 1,
-  "lastScan": "2026-11-09T19:25:00-03:00",
-  "lastChange": "2026-11-09T19:25:00-03:00",
+  "lastScan": "2026-11-11T22:10:00-03:00",
+  "lastChange": "2026-11-11T22:10:00-03:00",
   "claims": [
    {
     "quem": "Alcolumbre",
@@ -2194,6 +2289,14 @@
    }
   ],
   "changelog": [
+   {
+    "ts": "2026-11-11T22:10:00-03:00",
+    "txt": "Reinaldo Azambuja (PL-MS): primeira declaração direta registrada de voto em Marinho (RCN67, 10/11); posição segue Marinho. Relatadas sem fala direta: Alexandre Guimarães, Lucas Barreto e Rayssa Furlan (DMA Notícias), Michelle Bolsonaro (Correio Braziliense, via Damares). Pendência da Folha do Estado descartada por prazo."
+   },
+   {
+    "ts": "2026-11-09T22:05:00-03:00",
+    "txt": "Sem mudança no placar. Relatadas sem fala direta: Michelle Bolsonaro (O Globo: adiará posição para 2027), Bia Kicis (BNews RN), Lucas Barreto e Rayssa Furlan (Bahia Notícias/CNN)."
+   },
    {
     "ts": "2026-11-09T19:25:00-03:00",
     "txt": "Mara Rocha (Republicanos-AC) → Marinho (declaração ao Notícias da Hora, 09/11). Relatadas sem fala direta: Alan Rick, Márcio Bittar, Hamilton Mourão, Evair de Melo, Damares Alves (relatos divergentes) e Lucas Barreto."
@@ -2276,10 +2379,12 @@
    {
     "ts": "2026-11-07T19:20:00-03:00",
     "nome": "Senador não identificado (voto aberto)",
-    "txt": "Folha do Estado publicou matéria cujo título diz que um senador quer voto aberto na disputa; a página não pôde ser lida nesta varredura. Nada registrado em OPEN até verificar. Varredura de 08/11 17h: página segue sem leitura automática; outras coberturas do mesmo dia atribuem a defesa do voto aberto a Rogério Marinho, sem confirmação de que é ele o senador do título. Varredura de 09/11 19h: nenhuma republicação da matéria localizada; segue aberta até o prazo.",
+    "txt": "Folha do Estado publicou matéria cujo título diz que um senador quer voto aberto na disputa; a página não pôde ser lida nesta varredura. Nada registrado em OPEN até verificar. Varredura de 08/11 17h: página segue sem leitura automática; outras coberturas do mesmo dia atribuem a defesa do voto aberto a Rogério Marinho, sem confirmação de que é ele o senador do título. Varredura de 09/11 19h: nenhuma republicação da matéria localizada; segue aberta até o prazo. Varredura de 09/11 22h: nenhuma republicação nem nova cobertura localizada; segue aberta até o prazo. Varredura de 09/11 22h (2ª): nova busca não achou republicação da Folha do Estado; segue aberta até o prazo.",
     "s": "fest_0711",
-    "status": "aberta",
-    "prazo": "2026-11-10T23:59:00-03:00"
+    "status": "descartada",
+    "prazo": "2026-11-10T23:59:00-03:00",
+    "resolucao": "não verificável no prazo (prazo 10/11 23h59 vencido sem republicação nem leitura da matéria).",
+    "fechadoEm": "2026-11-11T22:10:00-03:00"
    },
    {
     "ts": "2026-11-07T18:20:00-03:00",
@@ -2355,8 +2460,8 @@
    }
   ],
   "motor": {
-   "lastRun": "2026-11-09T19:30:00-03:00",
-   "githubStatus": "erro: remote: access denied by the git proxy: 81votos-br/81votos is not in this session's authorized repository set, so the proxy will not inject a credential for it. To fix, add the repository to the session's sources. (add_repo indisponível nesta sessão)",
+   "lastRun": "2026-11-11T22:12:00-03:00",
+   "githubStatus": "aguardando colagem manual: sem mudança de posição; Azambuja ganha declaração direta (Marinho); +6 relatadas (Michelle Bolsonaro 2, Bia Kicis, Lucas Barreto 2, Rayssa Furlan 2, Alexandre Guimarães)",
    "githubLastPush": null
   }
  }
