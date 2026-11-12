@@ -260,6 +260,18 @@
   "cb_1011": {
    "n": "Correio Braziliense",
    "u": "https://www.correiobraziliense.com.br/politica/2026/11/7536065-michelle-deve-anunciar-apoio-a-disputa-pelo-senado-perto-do-pleito-diz-damares.html"
+  },
+  "cgnews_1111": {
+   "n": "Campo Grande News",
+   "u": "https://www.campograndenews.com.br/politica/citado-entre-possiveis-traidores-reinaldo-reafirma-apoio-a-marinho-no-senado"
+  },
+  "tsertao_1111": {
+   "n": "Tribuna do Sertão (reproduz texto da Agência O Globo)",
+   "u": "https://www.tribunadosertao.com.br/poder-e-governo/2026/11/11/1018938-disputa-entre-alcolumbre-marinho-e-tereza-pelo-senado-expoe-divergencias-na-federacao-uniao-pp-e-abre-negociacao-por-votos"
+  },
+  "antag_0311": {
+   "n": "O Antagonista",
+   "u": "https://oantagonista.com.br/brasil/disputa-pelo-senado-o-acordo-que-pode-unir-tereza-cristina-e-rogerio-marinho/"
   }
  },
  "PARTIES": [
@@ -1227,6 +1239,12 @@
    "cand": false,
    "ev": [
     {
+     "d": "11/11/2026",
+     "t": "Nas redes sociais e em entrevista ao Campo Grande News, nega mudança de posição e repete que já declarou apoio a Rogério Marinho; diz também ser favorável ao voto aberto.",
+     "s": "cgnews_1111",
+     "added": "2026-11-11"
+    },
+    {
      "d": "10/11/2026",
      "t": "Em entrevista e em vídeo gravado ao lado de Rogério Marinho, reafirma voto nele e o chama de nosso candidato a presidente do Senado.",
      "s": "rcn67_1011",
@@ -2148,7 +2166,15 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": [],
+   "ev": [
+    {
+     "d": "11/11/2026",
+     "t": "A Tribuna do Sertão (texto da Agência O Globo) afirma que, nas contas de aliados de Tereza Cristina, a posição dela é indefinida; o texto não traz fala dela.",
+     "s": "tsertao_1111",
+     "added": "2026-11-11",
+     "nv": "relatada"
+    }
+   ],
    "contato": {
     "email": "sen.professoradorinhaseabra@senado.leg.br",
     "u": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5386",
@@ -2165,7 +2191,15 @@
    "flag": null,
    "pos": "non",
    "cand": false,
-   "ev": [],
+   "ev": [
+    {
+     "d": "03/11/2026",
+     "t": "O Antagonista afirma que integrantes do PL o contam como voto de Marinho, mas tratam o voto como dúvida; o texto não traz fala dele sobre a eleição.",
+     "s": "antag_0311",
+     "added": "2026-11-11",
+     "nv": "relatada"
+    }
+   ],
    "contato": {
     "email": "sen.eduardogomes@senado.leg.br",
     "u": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/3777",
@@ -2257,8 +2291,8 @@
  },
  "META": {
   "schema": 1,
-  "lastScan": "2026-11-11T22:10:00-03:00",
-  "lastChange": "2026-11-11T22:10:00-03:00",
+  "lastScan": "2026-11-11T21:55:48-03:00",
+  "lastChange": "2026-11-11T21:55:48-03:00",
   "claims": [
    {
     "quem": "Alcolumbre",
@@ -2289,6 +2323,10 @@
    }
   ],
   "changelog": [
+   {
+    "ts": "2026-11-11T21:55:48-03:00",
+    "txt": "Sem mudança de posição. Reinaldo Azambuja (PL-MS) reafirma apoio a Marinho (Campo Grande News, 11/11). Relatadas sem fala direta: Professora Dorinha (Tribuna do Sertão/Agência O Globo: indefinida segundo aliados de Tereza) e Eduardo Gomes (O Antagonista: voto tratado como dúvida pelo PL)."
+   },
    {
     "ts": "2026-11-11T22:10:00-03:00",
     "txt": "Reinaldo Azambuja (PL-MS): primeira declaração direta registrada de voto em Marinho (RCN67, 10/11); posição segue Marinho. Relatadas sem fala direta: Alexandre Guimarães, Lucas Barreto e Rayssa Furlan (DMA Notícias), Michelle Bolsonaro (Correio Braziliense, via Damares). Pendência da Folha do Estado descartada por prazo."
@@ -2460,8 +2498,8 @@
    }
   ],
   "motor": {
-   "lastRun": "2026-11-11T22:12:00-03:00",
-   "githubStatus": "aguardando colagem manual: sem mudança de posição; Azambuja ganha declaração direta (Marinho); +6 relatadas (Michelle Bolsonaro 2, Bia Kicis, Lucas Barreto 2, Rayssa Furlan 2, Alexandre Guimarães)",
+   "lastRun": "2026-11-11T21:55:48-03:00",
+   "githubStatus": "aguardando colagem manual: sem mudança de posição; Azambuja ganha nova declaração direta (Marinho, 11/11); +2 relatadas (Professora Dorinha, Eduardo Gomes)",
    "githubLastPush": null
   }
  }
