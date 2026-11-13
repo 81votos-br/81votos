@@ -1,5 +1,5 @@
 {
- "UPDATED": "2026-11-11",
+ "UPDATED": "2026-11-12",
  "S": {
   "forum": {
    "n": "Revista Fórum (via CNN)",
@@ -272,6 +272,18 @@
   "antag_0311": {
    "n": "O Antagonista",
    "u": "https://oantagonista.com.br/brasil/disputa-pelo-senado-o-acordo-que-pode-unir-tereza-cristina-e-rogerio-marinho/"
+  },
+  "cdantas_1111": {
+   "n": "Claudio Dantas",
+   "u": "https://claudiodantas.com.br/rayssa-furlan-apoia-marinho-no-senado/"
+  },
+  "gazpovo_1211": {
+   "n": "Gazeta do Povo",
+   "u": "https://www.gazetadopovo.com.br/republica/mobilizacao-de-senadoras-de-direita-pro-tereza-perturba-a-candidatura-de-marinho/"
+  },
+  "tnorte_tl_1211": {
+   "n": "Tribuna do Norte (blog Território Livre)",
+   "u": "https://blog.tribunadonorte.com.br/territoriolivre/conterraneos-de-alcolumbre-declaram-voto-a-rogerio-marinho/"
   }
  },
  "PARTIES": [
@@ -319,6 +331,12 @@
   }
  ],
  "FEED": [
+  {
+   "d": "11/11",
+   "pos": "mar",
+   "t": "Rayssa Furlan (Podemos-AP) declara nas redes sociais apoio a Rogério Marinho.",
+   "s": "cdantas_1111"
+  },
   {
    "d": "10/11",
    "pos": "mar",
@@ -624,9 +642,15 @@
    "pt": "Podemos",
    "sit": "Eleita em 2026",
    "flag": null,
-   "pos": "non",
+   "pos": "mar",
    "cand": false,
    "ev": [
+    {
+     "d": "11/11/2026",
+     "t": "Em publicação nas redes sociais durante agenda em Brasília, declara apoio a Rogério Marinho para a presidência do Senado: \"Desta vez, estamos ao lado do senador Rogério Marinho.\"",
+     "s": "cdantas_1111",
+     "added": "2026-11-12"
+    },
     {
      "d": "10/11/2026",
      "t": "O DMA Notícias afirma, citando relatos de bastidores, que os dois senadores do Amapá caminharão com a oposição a Alcolumbre; o texto não traz fala deles.",
@@ -874,6 +898,13 @@
    "cand": false,
    "ev": [
     {
+     "d": "12/11/2026",
+     "t": "A Gazeta do Povo afirma que ela, coordenadora da campanha de Tereza Cristina, disse ao jornal que votaria em Marinho se houver orientação aos conservadores nesse sentido; o texto não traz a fala entre aspas.",
+     "s": "gazpovo_1211",
+     "added": "2026-11-12",
+     "nv": "relatada"
+    },
+    {
      "d": "09/11/2026",
      "t": "O ac24horas, reproduzindo o Painel da Folha, afirma que ela tende a apoiar Rogério Marinho; o Estado de Minas (Folhapress) a descreve no mesmo dia como defensora de Tereza Cristina. Nenhum dos textos traz fala dela.",
      "s": "ac24_0911",
@@ -947,6 +978,13 @@
    "pos": "non",
    "cand": false,
    "ev": [
+    {
+     "d": "12/11/2026",
+     "t": "A Gazeta do Povo afirma que ela declarou apoio à candidatura de Rogério Marinho; o texto não traz fala dela nem indica meio ou data.",
+     "s": "gazpovo_1211",
+     "added": "2026-11-12",
+     "nv": "relatada"
+    },
     {
      "d": "09/11/2026",
      "t": "O BNews RN afirma que ela defendeu que Tereza Cristina fique com a presidência no segundo biênio; o texto não traz fala dela nem diz em quem vota em fev/2027.",
@@ -1272,6 +1310,13 @@
    "pos": "non",
    "cand": false,
    "ev": [
+    {
+     "d": "11/11/2026",
+     "t": "O Claudio Dantas cita-o entre os senadores eleitos que já declararam apoio a Rogério Marinho; o texto não traz fala dele.",
+     "s": "cdantas_1111",
+     "added": "2026-11-12",
+     "nv": "relatada"
+    },
     {
      "d": "07/11/2026",
      "t": "Correio do Estado e Maracaju Online afirmam que declarou apoio a Rogério Marinho; nenhum dos dois reproduz fala dele nomeando o candidato.",
@@ -2291,8 +2336,8 @@
  },
  "META": {
   "schema": 1,
-  "lastScan": "2026-11-11T21:55:48-03:00",
-  "lastChange": "2026-11-11T21:55:48-03:00",
+  "lastScan": "2026-11-12T21:56:28-03:00",
+  "lastChange": "2026-11-12T21:56:28-03:00",
   "claims": [
    {
     "quem": "Alcolumbre",
@@ -2323,6 +2368,10 @@
    }
   ],
   "changelog": [
+   {
+    "ts": "2026-11-12T21:56:28-03:00",
+    "txt": "Rayssa Furlan (Podemos-AP) → Marinho (post nas redes reproduzido pelo Claudio Dantas, 11/11). Relatadas sem fala direta: Capitão Contar (Claudio Dantas), Bia Kicis e Damares Alves (Gazeta do Povo, 12/11). Nova pendência: blog Território Livre sobre senadores do Amapá."
+   },
    {
     "ts": "2026-11-11T21:55:48-03:00",
     "txt": "Sem mudança de posição. Reinaldo Azambuja (PL-MS) reafirma apoio a Marinho (Campo Grande News, 11/11). Relatadas sem fala direta: Professora Dorinha (Tribuna do Sertão/Agência O Globo: indefinida segundo aliados de Tereza) e Eduardo Gomes (O Antagonista: voto tratado como dúvida pelo PL)."
@@ -2377,6 +2426,14 @@
    }
   ],
   "pending": [
+   {
+    "ts": "2026-11-12T21:56:28-03:00",
+    "nome": "Lucas Barreto (e outros do Amapá)",
+    "txt": "Post do blog Território Livre (Tribuna do Norte) intitulado \"Conterrâneos de Alcolumbre declaram voto a Rogério Marinho\" não pôde ser lido (bloqueio de leitura automática). Rayssa Furlan já registrada por outra fonte; verificar se Lucas Barreto também declarou voto em Marinho, com fala direta.",
+    "s": "tnorte_tl_1211",
+    "status": "aberta",
+    "prazo": "2026-11-15T21:56:28-03:00"
+   },
    {
     "ts": "2026-11-08T10:25:00-03:00",
     "nome": "Tereza Cristina (contagem)",
@@ -2498,9 +2555,10 @@
    }
   ],
   "motor": {
-   "lastRun": "2026-11-11T21:55:48-03:00",
-   "githubStatus": "aguardando colagem manual: sem mudança de posição; Azambuja ganha nova declaração direta (Marinho, 11/11); +2 relatadas (Professora Dorinha, Eduardo Gomes)",
+   "lastRun": "2026-11-12T21:56:28-03:00",
+   "githubStatus": "aguardando colagem manual: Rayssa Furlan → Marinho; +3 relatadas (Capitão Contar, Bia Kicis, Damares Alves)",
    "githubLastPush": null
   }
  }
+}
 }
