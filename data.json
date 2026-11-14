@@ -284,6 +284,14 @@
   "tnorte_tl_1211": {
    "n": "Tribuna do Norte (blog Território Livre)",
    "u": "https://blog.tribunadonorte.com.br/territoriolivre/conterraneos-de-alcolumbre-declaram-voto-a-rogerio-marinho/"
+  },
+  "ndmais_1311": {
+   "n": "ND+",
+   "u": "https://ndmais.com.br/politica/flavio-estrategia-tereza-marinho-presidencia-senado/"
+  },
+  "carta_1211": {
+   "n": "CartaCapital",
+   "u": "https://www.cartacapital.com.br/politica/pelo-senado-marinho-mobiliza-bolsonaristas-alcolumbre-busca-governo-e-tereza-aposta-na-bancada-feminina/"
   }
  },
  "PARTIES": [
@@ -898,6 +906,13 @@
    "cand": false,
    "ev": [
     {
+     "d": "13/11/2026",
+     "t": "O ND+ afirma que ela apoia Tereza Cristina nos bastidores; o texto não traz fala dela.",
+     "s": "ndmais_1311",
+     "added": "2026-11-14",
+     "nv": "relatada"
+    },
+    {
      "d": "12/11/2026",
      "t": "A Gazeta do Povo afirma que ela, coordenadora da campanha de Tereza Cristina, disse ao jornal que votaria em Marinho se houver orientação aos conservadores nesse sentido; o texto não traz a fala entre aspas.",
      "s": "gazpovo_1211",
@@ -949,6 +964,13 @@
    "pos": "non",
    "cand": false,
    "ev": [
+    {
+     "d": "12/11/2026",
+     "t": "A CartaCapital afirma que ela defende a escolha de uma mulher para comandar o Senado; o texto não traz fala dela nem declaração de voto.",
+     "s": "carta_1211",
+     "added": "2026-11-14",
+     "nv": "relatada"
+    },
     {
      "d": "10/11/2026",
      "t": "O Correio Braziliense relata que Damares Alves disse que ela deve anunciar apoio perto da eleição; o texto não traz fala dela.",
@@ -2336,7 +2358,7 @@
  },
  "META": {
   "schema": 1,
-  "lastScan": "2026-11-12T21:56:28-03:00",
+  "lastScan": "2026-11-14T00:15:00-03:00",
   "lastChange": "2026-11-12T21:56:28-03:00",
   "claims": [
    {
@@ -2368,6 +2390,10 @@
    }
   ],
   "changelog": [
+   {
+    "ts": "2026-11-14T00:15:00-03:00",
+    "txt": "Sem mudança no placar. Relatadas sem fala direta: Damares Alves (ND+, 13/11: apoio a Tereza Cristina nos bastidores) e Michelle Bolsonaro (CartaCapital, 12/11: defende uma mulher no comando do Senado). Pendência do blog Território Livre segue aberta (prazo 15/11). Prévia e página de cópia não puderam ser lidas nem publicadas nesta varredura (artifact não encontrado); base usada: data.json do site no ar."
+   },
    {
     "ts": "2026-11-12T21:56:28-03:00",
     "txt": "Rayssa Furlan (Podemos-AP) → Marinho (post nas redes reproduzido pelo Claudio Dantas, 11/11). Relatadas sem fala direta: Capitão Contar (Claudio Dantas), Bia Kicis e Damares Alves (Gazeta do Povo, 12/11). Nova pendência: blog Território Livre sobre senadores do Amapá."
@@ -2555,8 +2581,8 @@
    }
   ],
   "motor": {
-   "lastRun": "2026-11-12T21:56:28-03:00",
-   "githubStatus": "aguardando colagem manual: Rayssa Furlan → Marinho; +3 relatadas (Capitão Contar, Bia Kicis, Damares Alves)",
+   "lastRun": "2026-11-14T00:15:00-03:00",
+   "githubStatus": "aguardando colagem manual: +2 relatadas (Damares Alves, Michelle Bolsonaro); sem mudança de posição",
    "githubLastPush": null
   }
  }
