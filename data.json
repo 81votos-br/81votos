@@ -292,6 +292,18 @@
   "carta_1211": {
    "n": "CartaCapital",
    "u": "https://www.cartacapital.com.br/politica/pelo-senado-marinho-mobiliza-bolsonaristas-alcolumbre-busca-governo-e-tereza-aposta-na-bancada-feminina/"
+  },
+  "metro_1411": {
+   "n": "Metrópoles",
+   "u": "https://www.metropoles.com/brasil/marinho-aposta-em-desgaste-de-alcolumbre-para-unir-oposicao-no-senado"
+  },
+  "plox_1411": {
+   "n": "Plox (reproduz apuração da Rádio Itatiaia)",
+   "u": "https://plox.com.br/noticia/14/11/2026/rogerio-marinho-presidencia-senado-3"
+  },
+  "platobr_1211": {
+   "n": "PlatôBR",
+   "u": "https://platobr.com.br/a-resistencia-dos-dois-senadores-eleitos-pelo-amapa-a-reeleicao-de-davi-alcolumbre"
   }
  },
  "PARTIES": [
@@ -696,6 +708,13 @@
    "cand": false,
    "ev": [
     {
+     "d": "12/11/2026",
+     "t": "O PlatôBR afirma que ele integra o campo que trabalha contra a reeleição de Alcolumbre e por candidatura alternativa; o texto não traz fala dele.",
+     "s": "platobr_1211",
+     "added": "2026-11-15",
+     "nv": "relatada"
+    },
+    {
      "d": "10/11/2026",
      "t": "O DMA Notícias afirma, citando relatos de bastidores, que os dois senadores do Amapá caminharão com a oposição a Alcolumbre; o texto não traz fala deles.",
      "s": "dma_1011",
@@ -964,6 +983,20 @@
    "pos": "non",
    "cand": false,
    "ev": [
+    {
+     "d": "14/11/2026",
+     "t": "O Plox, com apuração da Itatiaia, afirma que aliados de Marinho a apontam como apoiadora de Tereza Cristina; o texto não traz fala dela.",
+     "s": "plox_1411",
+     "added": "2026-11-15",
+     "nv": "relatada"
+    },
+    {
+     "d": "14/11/2026",
+     "t": "O Metrópoles afirma que o grupo de Marinho dá como certa a deserção dela, que atuaria a favor de Tereza Cristina; o texto não traz fala dela.",
+     "s": "metro_1411",
+     "added": "2026-11-15",
+     "nv": "relatada"
+    },
     {
      "d": "12/11/2026",
      "t": "A CartaCapital afirma que ela defende a escolha de uma mulher para comandar o Senado; o texto não traz fala dela nem declaração de voto.",
@@ -2260,6 +2293,13 @@
    "cand": false,
    "ev": [
     {
+     "d": "14/11/2026",
+     "t": "O Metrópoles afirma que o grupo de Marinho dá como certa a deserção dele, visto como próximo de Alcolumbre; o texto não traz fala dele.",
+     "s": "metro_1411",
+     "added": "2026-11-15",
+     "nv": "relatada"
+    },
+    {
      "d": "03/11/2026",
      "t": "O Antagonista afirma que integrantes do PL o contam como voto de Marinho, mas tratam o voto como dúvida; o texto não traz fala dele sobre a eleição.",
      "s": "antag_0311",
@@ -2358,7 +2398,7 @@
  },
  "META": {
   "schema": 1,
-  "lastScan": "2026-11-14T00:15:00-03:00",
+  "lastScan": "2026-11-15T09:20:00-03:00",
   "lastChange": "2026-11-12T21:56:28-03:00",
   "claims": [
    {
@@ -2390,6 +2430,10 @@
    }
   ],
   "changelog": [
+   {
+    "ts": "2026-11-15T09:20:00-03:00",
+    "txt": "Sem mudança no placar. Relatadas sem fala direta: Michelle Bolsonaro (Metrópoles e Plox/Itatiaia, 14/11: aliados de Marinho a contam como apoio a Tereza Cristina), Eduardo Gomes (Metrópoles, 14/11: deserção dada como certa pelo grupo de Marinho) e Lucas Barreto (PlatôBR, 12/11). Pendência do Território Livre fechada. Prévia e página de cópia não puderam ser lidas nem publicadas (artifact não encontrado); base usada: data.json do site no ar."
+   },
    {
     "ts": "2026-11-14T00:15:00-03:00",
     "txt": "Sem mudança no placar. Relatadas sem fala direta: Damares Alves (ND+, 13/11: apoio a Tereza Cristina nos bastidores) e Michelle Bolsonaro (CartaCapital, 12/11: defende uma mulher no comando do Senado). Pendência do blog Território Livre segue aberta (prazo 15/11). Prévia e página de cópia não puderam ser lidas nem publicadas nesta varredura (artifact não encontrado); base usada: data.json do site no ar."
@@ -2457,8 +2501,10 @@
     "nome": "Lucas Barreto (e outros do Amapá)",
     "txt": "Post do blog Território Livre (Tribuna do Norte) intitulado \"Conterrâneos de Alcolumbre declaram voto a Rogério Marinho\" não pôde ser lido (bloqueio de leitura automática). Rayssa Furlan já registrada por outra fonte; verificar se Lucas Barreto também declarou voto em Marinho, com fala direta.",
     "s": "tnorte_tl_1211",
-    "status": "aberta",
-    "prazo": "2026-11-15T21:56:28-03:00"
+    "status": "resolvida",
+    "prazo": "2026-11-15T21:56:28-03:00",
+    "resolucao": "Post do Território Livre segue ilegível; PlatôBR (12/11) registrado como relatada para Lucas Barreto, sem fala direta dele.",
+    "fechadoEm": "2026-11-15T09:20:00-03:00"
    },
    {
     "ts": "2026-11-08T10:25:00-03:00",
@@ -2581,8 +2627,8 @@
    }
   ],
   "motor": {
-   "lastRun": "2026-11-14T00:15:00-03:00",
-   "githubStatus": "aguardando colagem manual: +2 relatadas (Damares Alves, Michelle Bolsonaro); sem mudança de posição",
+   "lastRun": "2026-11-15T09:20:00-03:00",
+   "githubStatus": "aguardando colagem manual: +4 relatadas (Michelle Bolsonaro ×2, Eduardo Gomes, Lucas Barreto); sem mudança de posição",
    "githubLastPush": null
   }
  }
